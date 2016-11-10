@@ -1,0 +1,29 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+target 'CloudLive' do
+    pod 'Socket.IO-Client-Swift', '~> 8.0.0'
+    #pod 'Socket.IO-Client-Swift', '~> 6.1.6'
+    #pod 'CocoaAMF', '~> 1.2.0'
+    #pod 'TalkfunLogger', path: '../TalkfunLogger'
+    pod 'MJExtension', '~> 3.0.13'
+    #pod 'Whiteboard', path: '../../Whiteboard'
+    pod 'AFNetworking', '~> 3.1.0'
+    pod 'SDWebImage', '~> 3.8.2'
+    pod 'IQKeyboardManager'
+    pod 'JFImagePicker', '~> 1.0.0'
+    pod 'MJRefresh', '~> 3.1.12'
+    pod 'Bugly', '~> 2.4.0'
+    pod 'UMengAnalytics', '~> 4.1.0'
+end
+
+target 'CloudLiveTests' do
+
+end
+
+target 'CloudLiveUITests' do
+
+end
+

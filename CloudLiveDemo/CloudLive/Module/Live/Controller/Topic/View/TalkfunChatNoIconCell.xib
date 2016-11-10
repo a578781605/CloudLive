@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="noIconChat" rowHeight="25" id="KGk-i7-Jjw" customClass="TalkfunChatNoIconCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="25"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="24"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小心" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="feI-nW-bud">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="L08-t7-Elh"/>
+                            <constraint firstAttribute="width" constant="29" id="sel-gf-8lZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.99607843137254903" green="0.65098039215686276" blue="0.10196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":  哈哈哈哈哈哈哈" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNh-pY-COb">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="RRx-5U-CSN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="RRx-5U-CSN"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="DNh-pY-COb" secondAttribute="trailing" constant="60" id="708-gZ-CZV"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="DNh-pY-COb" secondAttribute="bottom" constant="-6.5" id="Hj3-0C-NfV"/>
+                    <constraint firstItem="feI-nW-bud" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="eg7-h4-TCm"/>
+                    <constraint firstItem="DNh-pY-COb" firstAttribute="leading" secondItem="feI-nW-bud" secondAttribute="trailing" constant="3" id="kOv-5f-C0k"/>
+                    <constraint firstItem="feI-nW-bud" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="mLL-aW-5XR"/>
+                    <constraint firstAttribute="bottom" secondItem="DNh-pY-COb" secondAttribute="bottom" constant="1.5" id="oR9-Ea-fsJ"/>
+                    <constraint firstItem="DNh-pY-COb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="pSR-3I-68z"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="oR9-Ea-fsJ"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="content" destination="DNh-pY-COb" id="Uqc-Xj-D2e"/>
+                <outlet property="name" destination="feI-nW-bud" id="Gsy-ID-9mG"/>
+                <outlet property="nameWidthConstraint" destination="sel-gf-8lZ" id="DTZ-2y-wki"/>
+            </connections>
+            <point key="canvasLocation" x="232" y="264.5"/>
+        </tableViewCell>
+    </objects>
+</document>

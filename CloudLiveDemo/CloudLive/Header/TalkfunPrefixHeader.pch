@@ -1,0 +1,82 @@
+//
+//  TalkfunPrefixHeader.pch
+//  CloudLive
+//
+//  Created by 孙兆能 on 16/8/21.
+//  Copyright © 2016年 Talkfun. All rights reserved.
+//
+
+#ifndef TalkfunPrefixHeader_pch
+#define TalkfunPrefixHeader_pch
+
+//#import "TalkfunConstant.h"
+#import "MJExtension.h"
+#import "UIView+TalkfunActivityIndicator.h"
+#import "TalkfunLoginNavigationController.h"
+#import "TalkfunCourseModel.h"
+#import "UIImageView+WebCache.h"
+#import "UIImage+GIF.h"
+#import "CloudLiveSDK.h"
+#import "Reachability.h"
+
+//#import "TalkfunLogger.h"
+//#import "Logger.h"
+#import "TalkfunSetContentOffset.h"
+#import "MJRefresh.h"
+//
+//#import "TalkfunLiveCommand.h"
+//#import "TalkfunUserSession.h"
+//#import "TalkfunLiveSender.h"
+//#import "TalkfunTools.h"
+//#import "TalkfunConfigure.h"
+////#import <UIKit/UIKit.h>
+//#import "CloudLiveSDK.h"
+////#import "MJExtension.h"
+//#import "TalkfunPrompt.h"
+//#import "UIView+TalkfunActivityIndicator.h"
+//#import "UIImageView+WebCache.h"
+
+//==================================
+//=========== 方法名 ================
+#define AttributeStr @"attributeStr"
+#define TextRect @"textRect"
+//==================================
+#define TalkfunLiveID @"liveid"
+#define NetworkStatus_None @"network.status.none"
+
+//#define NSLog TalkfunLogger_Log
+
+#define UserSession TalkfunUserSession * session = [TalkfunUserSession shared];
+#define UserDefaults [NSUserDefaults standardUserDefaults]
+
+#define APPDELEGATE AppDelegate *appDelegate= (AppDelegate *)[[UIApplication sharedApplication] delegate];
+#define ISIPAD [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad
+#define PERFORM_IN_MAIN_QUEUE(method) if ([NSThread currentThread].isMainThread) {method}else{dispatch_async(dispatch_get_main_queue(), ^{method});}
+#define NAVMESSAGE TalkfunLoginNavigationController * nav = (TalkfunLoginNavigationController *)self.navigationController;NSDictionary * navMessage = nav.message;
+
+#define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+#define HeightRatio [UIScreen mainScreen].bounds.size.height / 667
+#define WidthRatio [UIScreen mainScreen].bounds.size.width / 375
+#define BlueColor UIColorFromRGBHex(0x56acf5)
+#define HightlightButtonColor UIColorFromRGBHex(0x3b9bed)
+#define CodeSuccess [result[@"code"] intValue] == TalkfunCodeSuccess
+
+#define ToastDuration 1
+#define DismissToastDuration 0.2
+#define CornerRadius 4
+#define MaxUploadNum 10
+
+#define Nav_text_font_size 17
+
+#define WeakSelf __weak typeof(self) weakSelf = self;
+#define StrongSelf __strong typeof(self) strongSelf = weakSelf;
+
+#define WeakObj(o) __weak typeof(o) o##Weak = o;
+#define StrongObj(o) __strong typeof(o) o##Strong = o##Weak;
+
+//====================将传进来的16进制转化为10进制============================//
+#define UIColorFromRGBHex(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
+#endif /* TalkfunPrefixHeader_pch */

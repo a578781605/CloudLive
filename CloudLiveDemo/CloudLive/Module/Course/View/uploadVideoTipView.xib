@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="xUm-GG-C6C" customClass="uploadVideoTipView">
+            <rect key="frame" x="0.0" y="0.0" width="286" height="141"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="提示:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n26-UK-tOT">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="lzL-e9-fUw"/>
+                        <constraint firstAttribute="width" constant="42" id="phY-Jv-qTg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当前是流量模式,是否上传回放" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p8f-aq-I7g">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="2G7-HQ-yMt"/>
+                        <constraint firstAttribute="width" constant="190" id="Jeu-Cq-C9q"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qu2-xb-SAV">
+                    <color key="backgroundColor" red="0.26359796524047852" green="0.53541272878646851" blue="0.091531254351139069" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="Ly5-pL-zsc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="下次上传">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="LaterUploadVdeo:" destination="xUm-GG-C6C" eventType="touchUpInside" id="adi-65-kJM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYc-h8-94h">
+                    <color key="backgroundColor" red="0.20424896478652954" green="0.29270726442337036" blue="0.98519867658615112" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="rAR-Pv-4dc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="马上上传">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="UploadVideoNow:" destination="xUm-GG-C6C" eventType="touchUpInside" id="1yr-5g-PxP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.94999999999999996" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="n26-UK-tOT" firstAttribute="leading" secondItem="xUm-GG-C6C" secondAttribute="leading" constant="16" id="49m-hp-IOp"/>
+                <constraint firstItem="p8f-aq-I7g" firstAttribute="centerY" secondItem="xUm-GG-C6C" secondAttribute="centerY" id="DFt-N1-CSC"/>
+                <constraint firstAttribute="bottom" secondItem="Qu2-xb-SAV" secondAttribute="bottom" constant="16" id="GIi-dZ-OZ5"/>
+                <constraint firstAttribute="bottom" secondItem="kYc-h8-94h" secondAttribute="bottom" constant="16" id="L9D-hv-rsp"/>
+                <constraint firstItem="Qu2-xb-SAV" firstAttribute="leading" secondItem="kYc-h8-94h" secondAttribute="trailing" constant="20" id="XZC-Od-I2M"/>
+                <constraint firstItem="p8f-aq-I7g" firstAttribute="centerX" secondItem="xUm-GG-C6C" secondAttribute="centerX" id="cS0-Lx-arI"/>
+                <constraint firstItem="Qu2-xb-SAV" firstAttribute="width" secondItem="kYc-h8-94h" secondAttribute="width" id="h9N-qL-G0y"/>
+                <constraint firstItem="kYc-h8-94h" firstAttribute="leading" secondItem="xUm-GG-C6C" secondAttribute="leading" constant="16" id="iOA-zN-fHa"/>
+                <constraint firstItem="n26-UK-tOT" firstAttribute="top" secondItem="xUm-GG-C6C" secondAttribute="top" constant="16" id="okJ-C5-e3o"/>
+                <constraint firstAttribute="trailing" secondItem="Qu2-xb-SAV" secondAttribute="trailing" constant="16" id="ps1-2G-hi5"/>
+                <constraint firstAttribute="bottom" secondItem="Qu2-xb-SAV" secondAttribute="bottom" constant="16" id="q9H-Sd-W05"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="LaterUploadVdeoLabel" destination="Qu2-xb-SAV" id="621-m4-zWS"/>
+                <outlet property="UploadVideoNowLabel" destination="kYc-h8-94h" id="Gr3-eS-6dE"/>
+                <outlet property="describeLabel" destination="p8f-aq-I7g" id="wJv-zz-Lfy"/>
+            </connections>
+            <point key="canvasLocation" x="-990" y="-279"/>
+        </view>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="下次上传" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcl-Rf-LGf">
+            <constraints>
+                <constraint firstAttribute="height" constant="23" id="Okk-A1-MqB"/>
+            </constraints>
+            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+            <nil key="textColor"/>
+            <nil key="highlightedColor"/>
+            <point key="canvasLocation" x="-134" y="-299"/>
+        </label>
+    </objects>
+</document>

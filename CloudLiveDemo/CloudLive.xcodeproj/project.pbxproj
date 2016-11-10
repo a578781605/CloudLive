@@ -1,0 +1,2634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E02D70C1D868BFA0039384A /* rose.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E02D70B1D868BFA0039384A /* rose.png */; };
+		0E0A70B91D6C40F300AD8C10 /* setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0A70AD1D6C40F300AD8C10 /* setting@2x.png */; };
+		0E0A70BA1D6C40F300AD8C10 /* setting@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0A70AE1D6C40F300AD8C10 /* setting@3x.png */; };
+		0E0A70BB1D6C40F300AD8C10 /* icon_date.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0A70B01D6C40F300AD8C10 /* icon_date.png */; };
+		0E0A70BC1D6C40F300AD8C10 /* icon_date@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0A70B11D6C40F300AD8C10 /* icon_date@3x.png */; };
+		0E0A70BD1D6C40F300AD8C10 /* icon_创建@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0A70B21D6C40F300AD8C10 /* icon_创建@2x.png */; };
+		0E0A70BE1D6C40F300AD8C10 /* icon_创建@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0A70B31D6C40F300AD8C10 /* icon_创建@3x.png */; };
+		0E0A70BF1D6C40F300AD8C10 /* backBtnImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0A70B51D6C40F300AD8C10 /* backBtnImage@2x.png */; };
+		0E0A70C01D6C40F300AD8C10 /* backBtnImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0A70B61D6C40F300AD8C10 /* backBtnImage@3x.png */; };
+		0E0A70C11D6C40F300AD8C10 /* Class@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0A70B71D6C40F300AD8C10 /* Class@2x.png */; };
+		0E0A70C21D6C40F300AD8C10 /* Class@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0A70B81D6C40F300AD8C10 /* Class@3x.png */; };
+		0E0A70C51D6C4F7F00AD8C10 /* btn_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0A70C31D6C4F7F00AD8C10 /* btn_more@2x.png */; };
+		0E0A70C61D6C4F7F00AD8C10 /* btn_more@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0A70C41D6C4F7F00AD8C10 /* btn_more@3x.png */; };
+		0E26D5191D856BA600C8F381 /* choice@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E26D5151D856BA600C8F381 /* choice@3x.png */; };
+		0E26D51A1D856BA600C8F381 /* choice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E26D5161D856BA600C8F381 /* choice@2x.png */; };
+		0E26D51B1D856BA600C8F381 /* 未选择@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E26D5171D856BA600C8F381 /* 未选择@2x.png */; };
+		0E26D51C1D856BA600C8F381 /* 未选择@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E26D5181D856BA600C8F381 /* 未选择@3x.png */; };
+		0E27331D1DA8EA30006D4974 /* TalkfunCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2732B21DA8EA30006D4974 /* TalkfunCourseViewController.m */; };
+		0E27331E1DA8EA30006D4974 /* TalkfunCreateCourseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2732B41DA8EA30006D4974 /* TalkfunCreateCourseController.m */; };
+		0E27331F1DA8EA30006D4974 /* TalkfunCourseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2732B71DA8EA30006D4974 /* TalkfunCourseModel.m */; };
+		0E2733251DA8EA30006D4974 /* TalkfunDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2732C81DA8EA30006D4974 /* TalkfunDocumentViewController.m */; };
+		0E2733261DA8EA30006D4974 /* TalkfunDocumentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2732C91DA8EA30006D4974 /* TalkfunDocumentViewController.xib */; };
+		0E2733271DA8EA30006D4974 /* TalkfunPhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2732CB1DA8EA30006D4974 /* TalkfunPhotoPickerViewController.m */; };
+		0E2733281DA8EA30006D4974 /* TalkfunPhotoPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2732CC1DA8EA30006D4974 /* TalkfunPhotoPickerViewController.xib */; };
+		0E2733291DA8EA30006D4974 /* TalkfunCourseWareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2732CF1DA8EA30006D4974 /* TalkfunCourseWareModel.m */; };
+		0E27332B1DA8EA30006D4974 /* TalkfunCourseWareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2732D51DA8EA30006D4974 /* TalkfunCourseWareCell.m */; };
+		0E27332C1DA8EA30006D4974 /* TalkfunCourseWareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2732D61DA8EA30006D4974 /* TalkfunCourseWareCell.xib */; };
+		0E27332D1DA8EA30006D4974 /* TalkfunPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2732D81DA8EA30006D4974 /* TalkfunPhotoCell.m */; };
+		0E27332E1DA8EA30006D4974 /* TalkfunPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2732D91DA8EA30006D4974 /* TalkfunPhotoCell.xib */; };
+		0E27332F1DA8EA30006D4974 /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2732DB1DA8EA30006D4974 /* FileViewController.m */; };
+		0E2733301DA8EA30006D4974 /* FileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2732DC1DA8EA30006D4974 /* FileViewController.xib */; };
+		0E2733311DA8EA30006D4974 /* TalkfunLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2732E01DA8EA30006D4974 /* TalkfunLiveViewController.m */; };
+		0E2733321DA8EA30006D4974 /* TalkfunChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2732E41DA8EA30006D4974 /* TalkfunChatViewController.m */; };
+		0E2733331DA8EA30006D4974 /* TalkfunChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2732E51DA8EA30006D4974 /* TalkfunChatViewController.xib */; };
+		0E2733341DA8EA30006D4974 /* TalkfunQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2732E71DA8EA30006D4974 /* TalkfunQuestionViewController.m */; };
+		0E2733351DA8EA30006D4974 /* TalkfunQuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2732E81DA8EA30006D4974 /* TalkfunQuestionViewController.xib */; };
+		0E2733361DA8EA30006D4974 /* TalkfunChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2732EB1DA8EA30006D4974 /* TalkfunChatModel.m */; };
+		0E2733381DA8EA30006D4974 /* TalkfunQuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2732EF1DA8EA30006D4974 /* TalkfunQuestionModel.m */; };
+		0E2733391DA8EA30006D4974 /* TalkfunChatIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2732F21DA8EA30006D4974 /* TalkfunChatIconCell.m */; };
+		0E27333A1DA8EA30006D4974 /* TalkfunChatIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2732F31DA8EA30006D4974 /* TalkfunChatIconCell.xib */; };
+		0E27333B1DA8EA30006D4974 /* TalkfunChatNoIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2732F51DA8EA30006D4974 /* TalkfunChatNoIconCell.m */; };
+		0E27333C1DA8EA30006D4974 /* TalkfunChatNoIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2732F61DA8EA30006D4974 /* TalkfunChatNoIconCell.xib */; };
+		0E27333D1DA8EA30006D4974 /* TalkfunQuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2732F81DA8EA30006D4974 /* TalkfunQuestionCell.m */; };
+		0E27333E1DA8EA30006D4974 /* TalkfunQuestionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2732F91DA8EA30006D4974 /* TalkfunQuestionCell.xib */; };
+		0E2733471DA8EA30006D4974 /* TalkfunLoginNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E27330E1DA8EA30006D4974 /* TalkfunLoginNavigationController.m */; };
+		0E2733481DA8EA30006D4974 /* TalkfunLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2733101DA8EA30006D4974 /* TalkfunLoginViewController.m */; };
+		0E27334A1DA8EA30006D4974 /* TalkfunSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2733151DA8EA30006D4974 /* TalkfunSegue.m */; };
+		0E27334B1DA8EA30006D4974 /* TalkfunSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2733191DA8EA30006D4974 /* TalkfunSettingViewController.m */; };
+		0E27334C1DA8EA30006D4974 /* TalkfunSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E27331C1DA8EA30006D4974 /* TalkfunSettingView.m */; };
+		0E3AFD4B1D813E5C00D797D1 /* setting_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3AFD491D813E5C00D797D1 /* setting_click@2x.png */; };
+		0E3AFD4C1D813E5C00D797D1 /* setting_click@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3AFD4A1D813E5C00D797D1 /* setting_click@3x.png */; };
+		0E5864441D68B3750014D6F6 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5864421D68B3750014D6F6 /* logo@2x.png */; };
+		0E5864451D68B3750014D6F6 /* logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5864431D68B3750014D6F6 /* logo@3x.png */; };
+		0E8CCD8E1DAC83C200D26022 /* TalkfungetCurrentDateString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8CCD7E1DAC83C200D26022 /* TalkfungetCurrentDateString.m */; };
+		0E8CCD8F1DAC83C200D26022 /* TalkfunSetContentOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8CCD801DAC83C200D26022 /* TalkfunSetContentOffset.m */; };
+		0E9A24891D77C2230014E2B9 /* 聊天@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A24751D77C2230014E2B9 /* 聊天@2x.png */; };
+		0E9A248A1D77C2230014E2B9 /* 聊天@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A24761D77C2230014E2B9 /* 聊天@3x.png */; };
+		0E9A248B1D77C2230014E2B9 /* 助教@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A24781D77C2230014E2B9 /* 助教@2x.png */; };
+		0E9A248C1D77C2230014E2B9 /* 助教@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A24791D77C2230014E2B9 /* 助教@3x.png */; };
+		0E9A248D1D77C2230014E2B9 /* 学生@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A247A1D77C2230014E2B9 /* 学生@2x.png */; };
+		0E9A248E1D77C2230014E2B9 /* 学生@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A247B1D77C2230014E2B9 /* 学生@3x.png */; };
+		0E9A248F1D77C2230014E2B9 /* 老师@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A247C1D77C2230014E2B9 /* 老师@2x.png */; };
+		0E9A24901D77C2230014E2B9 /* 老师@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A247D1D77C2230014E2B9 /* 老师@3x.png */; };
+		0E9A24911D77C2230014E2B9 /* aha.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A247F1D77C2230014E2B9 /* aha.png */; };
+		0E9A24921D77C2230014E2B9 /* amaz.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A24801D77C2230014E2B9 /* amaz.png */; };
+		0E9A24931D77C2230014E2B9 /* bye.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A24811D77C2230014E2B9 /* bye.png */; };
+		0E9A24941D77C2230014E2B9 /* cool.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A24821D77C2230014E2B9 /* cool.png */; };
+		0E9A24951D77C2230014E2B9 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A24831D77C2230014E2B9 /* flower.png */; };
+		0E9A24961D77C2230014E2B9 /* good.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A24841D77C2230014E2B9 /* good.png */; };
+		0E9A24971D77C2230014E2B9 /* hard.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A24851D77C2230014E2B9 /* hard.png */; };
+		0E9A24981D77C2230014E2B9 /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A24861D77C2230014E2B9 /* love.png */; };
+		0E9A24991D77C2230014E2B9 /* pitiful.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A24871D77C2230014E2B9 /* pitiful.png */; };
+		0E9A249A1D77C2230014E2B9 /* why.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A24881D77C2230014E2B9 /* why.png */; };
+		0EB303691D7FF959002B6346 /* NetworkStatusObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB303641D7FF959002B6346 /* NetworkStatusObserver.m */; };
+		0EB3036A1D7FF959002B6346 /* Reachability+bpStatusDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB303661D7FF959002B6346 /* Reachability+bpStatusDescription.m */; };
+		0EB3036B1D7FF959002B6346 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB303681D7FF959002B6346 /* Reachability.m */; };
+		0EB73D4E1DB5D28E00D695CF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB73D4D1DB5D28E00D695CF /* SystemConfiguration.framework */; };
+		0EC3C8181DB4D0AF008DD550 /* TalkfunClearCacheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC3C8171DB4D0AF008DD550 /* TalkfunClearCacheCell.m */; };
+		0EC3C81C1DB4D1FA008DD550 /* TalkfunSettingBeautyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC3C81A1DB4D1FA008DD550 /* TalkfunSettingBeautyCell.m */; };
+		0EC3C81D1DB4D1FA008DD550 /* TalkfunSettingBeautyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EC3C81B1DB4D1FA008DD550 /* TalkfunSettingBeautyCell.xib */; };
+		0EC8511F1D803A18009537D1 /* 助教标签@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EC8511B1D803A18009537D1 /* 助教标签@2x.png */; };
+		0EC851201D803A18009537D1 /* 助教标签@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EC8511C1D803A18009537D1 /* 助教标签@3x.png */; };
+		0EC851211D803A18009537D1 /* 老师标签@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EC8511D1D803A18009537D1 /* 老师标签@2x.png */; };
+		0EC851221D803A18009537D1 /* 老师标签@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EC8511E1D803A18009537D1 /* 老师标签@3x.png */; };
+		0ED211771D9B6864004E39EB /* Default-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED211751D9B6864004E39EB /* Default-568h.png */; };
+		0ED211781D9B6864004E39EB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED211761D9B6864004E39EB /* Default-568h@2x.png */; };
+		0EE1AB181D953D95009C183C /* 上课提示toast@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1AB121D953D95009C183C /* 上课提示toast@2x.png */; };
+		0EE1AB191D953D95009C183C /* 上课提示toast@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1AB131D953D95009C183C /* 上课提示toast@3x.png */; };
+		0EE1AB1A1D953D95009C183C /* 语音动效@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1AB141D953D95009C183C /* 语音动效@2x.png */; };
+		0EE1AB1B1D953D95009C183C /* 语音动效@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1AB151D953D95009C183C /* 语音动效@3x.png */; };
+		0EE1AB1C1D953D95009C183C /* 页面提示toast@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1AB161D953D95009C183C /* 页面提示toast@2x.png */; };
+		0EE1AB1D1D953D95009C183C /* 页面提示toast@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1AB171D953D95009C183C /* 页面提示toast@3x.png */; };
+		0EE39EDC1D82B46E0060C067 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE39ED81D82B46E0060C067 /* icon@2x.png */; };
+		0EE39EDD1D82B46E0060C067 /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE39ED91D82B46E0060C067 /* icon@3x.png */; };
+		0EE39EDE1D82B46E0060C067 /* pic@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EE39EDA1D82B46E0060C067 /* pic@2x.jpg */; };
+		0EE39EDF1D82B46E0060C067 /* pic@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EE39EDB1D82B46E0060C067 /* pic@3x.jpg */; };
+		0EE5FEBB1D73DFE000581523 /* 默认图片.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE5FEBA1D73DFE000581523 /* 默认图片.png */; };
+		6E2080601DC33AE0004607EB /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E20805F1DC33AE0004607EB /* UIView+XMGExtension.m */; };
+		6E26FB331DC9804200479420 /* TalkfunWhiteboardSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26FB221DC9804200479420 /* TalkfunWhiteboardSlider.m */; };
+		6E26FB3B1DC9804200479420 /* TalkfunWhiteboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26FB311DC9804200479420 /* TalkfunWhiteboardView.m */; };
+		6E26FB3C1DC9804200479420 /* TalkfunWhiteboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E26FB321DC9804200479420 /* TalkfunWhiteboardView.xib */; };
+		6E26FB491DC9814F00479420 /* TalkfunButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26FB3F1DC9814F00479420 /* TalkfunButton.m */; };
+		6E26FB4A1DC9814F00479420 /* TalkfunCourseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26FB411DC9814F00479420 /* TalkfunCourseTableViewCell.m */; };
+		6E26FB4B1DC9814F00479420 /* TalkfunImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26FB431DC9814F00479420 /* TalkfunImageView.m */; };
+		6E26FB4C1DC9814F00479420 /* TalkfunLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26FB451DC9814F00479420 /* TalkfunLabel.m */; };
+		6E26FB571DC9838800479420 /* RemoveHighlightedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26FB511DC9838800479420 /* RemoveHighlightedButton.m */; };
+		6E26FB581DC9838800479420 /* TalkfunWhiteboardSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26FB531DC9838800479420 /* TalkfunWhiteboardSliderCell.m */; };
+		6E26FB591DC9838800479420 /* TalkfunWhiteboardSliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E26FB541DC9838800479420 /* TalkfunWhiteboardSliderCell.xib */; };
+		6E26FB5A1DC9838800479420 /* XMGTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26FB561DC9838800479420 /* XMGTitleButton.m */; };
+		6E26FB5E1DC9838D00479420 /* PromptClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E26FB5D1DC9838D00479420 /* PromptClass.m */; };
+		6E26FB5F1DC9860F00479420 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB6D64B1D6E93E50098DF9D /* libz.tbd */; };
+		6E536BC11DCC58B400A9E314 /* TalkfunScheduleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E536BC01DCC58B400A9E314 /* TalkfunScheduleButton.m */; };
+		6E57C8431DD0849600CCAFCF /* uploadImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6E57C8421DD0849600CCAFCF /* uploadImage.gif */; };
+		6E57C8EA1DD1CB4800CCAFCF /* UIView+TalkfunActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E57C8E91DD1CB4800CCAFCF /* UIView+TalkfunActivityIndicator.m */; };
+		6E57C8EE1DD1CEB700CCAFCF /* TalkfunUploadPrompt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E57C8ED1DD1CEB700CCAFCF /* TalkfunUploadPrompt.m */; };
+		6E57C97D1DD2F6D800CCAFCF /* libCloudLiveSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E57C97C1DD2F6D800CCAFCF /* libCloudLiveSDK.a */; };
+		6E89A4A81DC0BDCD006B8FEB /* TalkfunHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E89A4A71DC0BDCD006B8FEB /* TalkfunHeaderView.xib */; };
+		6E89A4BD1DC1AAF1006B8FEB /* TalkfunUploadVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E89A4BC1DC1AAF1006B8FEB /* TalkfunUploadVideoController.m */; };
+		6EA254581DC05FA200560363 /* TalkfunUploadVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA254561DC05FA200560363 /* TalkfunUploadVideoCell.m */; };
+		6EA254591DC05FA200560363 /* TalkfunUploadVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EA254571DC05FA200560363 /* TalkfunUploadVideoCell.xib */; };
+		6EA2546B1DC0AFF800560363 /* TalkfunHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA2546A1DC0AFF800560363 /* TalkfunHeaderView.m */; };
+		6EB6D63E1D6E93B00098DF9D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB6D63D1D6E93B00098DF9D /* CoreMedia.framework */; };
+		6EB6D6401D6E93B80098DF9D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB6D63F1D6E93B80098DF9D /* AVFoundation.framework */; };
+		6EB6D6421D6E93BE0098DF9D /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB6D6411D6E93BE0098DF9D /* VideoToolbox.framework */; };
+		6EB6D6441D6E93C50098DF9D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB6D6431D6E93C50098DF9D /* AudioToolbox.framework */; };
+		6EB6D6461D6E93CC0098DF9D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB6D6451D6E93CC0098DF9D /* OpenGLES.framework */; };
+		6EB6D6481D6E93D40098DF9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB6D6471D6E93D40098DF9D /* CoreGraphics.framework */; };
+		6EB6D64A1D6E93DD0098DF9D /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB6D6491D6E93DD0098DF9D /* libstdc++.tbd */; };
+		6EE17AB81DCAD3C600C9CD80 /* TalkfunUploadListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE17AB61DCAD3C600C9CD80 /* TalkfunUploadListCell.m */; };
+		6EE17AB91DCAD3C600C9CD80 /* TalkfunUploadListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EE17AB71DCAD3C600C9CD80 /* TalkfunUploadListCell.xib */; };
+		6EE17ABF1DCB13E900C9CD80 /* upload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE17ABB1DCB13E900C9CD80 /* upload@2x.png */; };
+		6EE17AC01DCB13E900C9CD80 /* upload@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE17ABC1DCB13E900C9CD80 /* upload@3x.png */; };
+		6EE17AC11DCB13E900C9CD80 /* 播放@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE17ABD1DCB13E900C9CD80 /* 播放@2x.png */; };
+		6EE17AC21DCB13E900C9CD80 /* 播放@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE17ABE1DCB13E900C9CD80 /* 播放@3x.png */; };
+		6EE22C8C1D88FFCE00031479 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE22C8B1D88FFCE00031479 /* Accelerate.framework */; };
+		87D003004B219ABDCB836EA4 /* Pods_CloudLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D4A90DB826F520E33B006D /* Pods_CloudLive.framework */; };
+		9B80C4381D636CEE00CF82F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B80C4371D636CEE00CF82F4 /* main.m */; };
+		9B80C4411D636CEE00CF82F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B80C43F1D636CEE00CF82F4 /* Main.storyboard */; };
+		9B80C4431D636CEE00CF82F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B80C4421D636CEE00CF82F4 /* Assets.xcassets */; };
+		9B80C4461D636CEE00CF82F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B80C4441D636CEE00CF82F4 /* LaunchScreen.storyboard */; };
+		9B80C4511D636CEE00CF82F4 /* CloudLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B80C4501D636CEE00CF82F4 /* CloudLiveTests.m */; };
+		9B80C45C1D636CEE00CF82F4 /* CloudLiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B80C45B1D636CEE00CF82F4 /* CloudLiveUITests.m */; };
+		9B80C4741D636DC300CF82F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B80C4711D636DC200CF82F4 /* AppDelegate.m */; };
+		B29E24A5CA295FCDF89BCF96 /* Pods_CloudLiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2D2E188D80E2C7418271F5 /* Pods_CloudLiveUITests.framework */; };
+		F1BF96CA4CA9662DCDA1DED7 /* Pods_CloudLiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A5237091A530B6E1BF16FD /* Pods_CloudLiveTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E0A70FC1D6DDBB900AD8C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B80C42B1D636CED00CF82F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B80C4321D636CED00CF82F4;
+			remoteInfo = CloudLive;
+		};
+		9B80C4581D636CEE00CF82F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B80C42B1D636CED00CF82F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B80C4321D636CED00CF82F4;
+			remoteInfo = CloudLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E02D70B1D868BFA0039384A /* rose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rose.png; sourceTree = "<group>"; };
+		0E0A70AD1D6C40F300AD8C10 /* setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting@2x.png"; sourceTree = "<group>"; };
+		0E0A70AE1D6C40F300AD8C10 /* setting@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting@3x.png"; sourceTree = "<group>"; };
+		0E0A70B01D6C40F300AD8C10 /* icon_date.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_date.png; sourceTree = "<group>"; };
+		0E0A70B11D6C40F300AD8C10 /* icon_date@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_date@3x.png"; sourceTree = "<group>"; };
+		0E0A70B21D6C40F300AD8C10 /* icon_创建@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_创建@2x.png"; sourceTree = "<group>"; };
+		0E0A70B31D6C40F300AD8C10 /* icon_创建@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_创建@3x.png"; sourceTree = "<group>"; };
+		0E0A70B51D6C40F300AD8C10 /* backBtnImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backBtnImage@2x.png"; sourceTree = "<group>"; };
+		0E0A70B61D6C40F300AD8C10 /* backBtnImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backBtnImage@3x.png"; sourceTree = "<group>"; };
+		0E0A70B71D6C40F300AD8C10 /* Class@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Class@2x.png"; sourceTree = "<group>"; };
+		0E0A70B81D6C40F300AD8C10 /* Class@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Class@3x.png"; sourceTree = "<group>"; };
+		0E0A70C31D6C4F7F00AD8C10 /* btn_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_more@2x.png"; sourceTree = "<group>"; };
+		0E0A70C41D6C4F7F00AD8C10 /* btn_more@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_more@3x.png"; sourceTree = "<group>"; };
+		0E26D5151D856BA600C8F381 /* choice@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "choice@3x.png"; sourceTree = "<group>"; };
+		0E26D5161D856BA600C8F381 /* choice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "choice@2x.png"; sourceTree = "<group>"; };
+		0E26D5171D856BA600C8F381 /* 未选择@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未选择@2x.png"; sourceTree = "<group>"; };
+		0E26D5181D856BA600C8F381 /* 未选择@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未选择@3x.png"; sourceTree = "<group>"; };
+		0E2732B11DA8EA30006D4974 /* TalkfunCourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunCourseViewController.h; sourceTree = "<group>"; };
+		0E2732B21DA8EA30006D4974 /* TalkfunCourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunCourseViewController.m; sourceTree = "<group>"; };
+		0E2732B31DA8EA30006D4974 /* TalkfunCreateCourseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunCreateCourseController.h; sourceTree = "<group>"; };
+		0E2732B41DA8EA30006D4974 /* TalkfunCreateCourseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunCreateCourseController.m; sourceTree = "<group>"; };
+		0E2732B61DA8EA30006D4974 /* TalkfunCourseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunCourseModel.h; sourceTree = "<group>"; };
+		0E2732B71DA8EA30006D4974 /* TalkfunCourseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunCourseModel.m; sourceTree = "<group>"; };
+		0E2732C71DA8EA30006D4974 /* TalkfunDocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunDocumentViewController.h; sourceTree = "<group>"; };
+		0E2732C81DA8EA30006D4974 /* TalkfunDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunDocumentViewController.m; sourceTree = "<group>"; };
+		0E2732C91DA8EA30006D4974 /* TalkfunDocumentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkfunDocumentViewController.xib; sourceTree = "<group>"; };
+		0E2732CA1DA8EA30006D4974 /* TalkfunPhotoPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunPhotoPickerViewController.h; sourceTree = "<group>"; };
+		0E2732CB1DA8EA30006D4974 /* TalkfunPhotoPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunPhotoPickerViewController.m; sourceTree = "<group>"; };
+		0E2732CC1DA8EA30006D4974 /* TalkfunPhotoPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkfunPhotoPickerViewController.xib; sourceTree = "<group>"; };
+		0E2732CE1DA8EA30006D4974 /* TalkfunCourseWareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunCourseWareModel.h; sourceTree = "<group>"; };
+		0E2732CF1DA8EA30006D4974 /* TalkfunCourseWareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunCourseWareModel.m; sourceTree = "<group>"; };
+		0E2732D41DA8EA30006D4974 /* TalkfunCourseWareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunCourseWareCell.h; sourceTree = "<group>"; };
+		0E2732D51DA8EA30006D4974 /* TalkfunCourseWareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunCourseWareCell.m; sourceTree = "<group>"; };
+		0E2732D61DA8EA30006D4974 /* TalkfunCourseWareCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkfunCourseWareCell.xib; sourceTree = "<group>"; };
+		0E2732D71DA8EA30006D4974 /* TalkfunPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunPhotoCell.h; sourceTree = "<group>"; };
+		0E2732D81DA8EA30006D4974 /* TalkfunPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunPhotoCell.m; sourceTree = "<group>"; };
+		0E2732D91DA8EA30006D4974 /* TalkfunPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkfunPhotoCell.xib; sourceTree = "<group>"; };
+		0E2732DA1DA8EA30006D4974 /* FileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
+		0E2732DB1DA8EA30006D4974 /* FileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
+		0E2732DC1DA8EA30006D4974 /* FileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FileViewController.xib; sourceTree = "<group>"; };
+		0E2732DF1DA8EA30006D4974 /* TalkfunLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunLiveViewController.h; sourceTree = "<group>"; };
+		0E2732E01DA8EA30006D4974 /* TalkfunLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunLiveViewController.m; sourceTree = "<group>"; };
+		0E2732E31DA8EA30006D4974 /* TalkfunChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunChatViewController.h; sourceTree = "<group>"; };
+		0E2732E41DA8EA30006D4974 /* TalkfunChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunChatViewController.m; sourceTree = "<group>"; };
+		0E2732E51DA8EA30006D4974 /* TalkfunChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkfunChatViewController.xib; sourceTree = "<group>"; };
+		0E2732E61DA8EA30006D4974 /* TalkfunQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunQuestionViewController.h; sourceTree = "<group>"; };
+		0E2732E71DA8EA30006D4974 /* TalkfunQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunQuestionViewController.m; sourceTree = "<group>"; };
+		0E2732E81DA8EA30006D4974 /* TalkfunQuestionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkfunQuestionViewController.xib; sourceTree = "<group>"; };
+		0E2732EA1DA8EA30006D4974 /* TalkfunChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunChatModel.h; sourceTree = "<group>"; };
+		0E2732EB1DA8EA30006D4974 /* TalkfunChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunChatModel.m; sourceTree = "<group>"; };
+		0E2732EE1DA8EA30006D4974 /* TalkfunQuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunQuestionModel.h; sourceTree = "<group>"; };
+		0E2732EF1DA8EA30006D4974 /* TalkfunQuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunQuestionModel.m; sourceTree = "<group>"; };
+		0E2732F11DA8EA30006D4974 /* TalkfunChatIconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunChatIconCell.h; sourceTree = "<group>"; };
+		0E2732F21DA8EA30006D4974 /* TalkfunChatIconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunChatIconCell.m; sourceTree = "<group>"; };
+		0E2732F31DA8EA30006D4974 /* TalkfunChatIconCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkfunChatIconCell.xib; sourceTree = "<group>"; };
+		0E2732F41DA8EA30006D4974 /* TalkfunChatNoIconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunChatNoIconCell.h; sourceTree = "<group>"; };
+		0E2732F51DA8EA30006D4974 /* TalkfunChatNoIconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunChatNoIconCell.m; sourceTree = "<group>"; };
+		0E2732F61DA8EA30006D4974 /* TalkfunChatNoIconCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkfunChatNoIconCell.xib; sourceTree = "<group>"; };
+		0E2732F71DA8EA30006D4974 /* TalkfunQuestionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunQuestionCell.h; sourceTree = "<group>"; };
+		0E2732F81DA8EA30006D4974 /* TalkfunQuestionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunQuestionCell.m; sourceTree = "<group>"; };
+		0E2732F91DA8EA30006D4974 /* TalkfunQuestionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkfunQuestionCell.xib; sourceTree = "<group>"; };
+		0E27330D1DA8EA30006D4974 /* TalkfunLoginNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunLoginNavigationController.h; sourceTree = "<group>"; };
+		0E27330E1DA8EA30006D4974 /* TalkfunLoginNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunLoginNavigationController.m; sourceTree = "<group>"; };
+		0E27330F1DA8EA30006D4974 /* TalkfunLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunLoginViewController.h; sourceTree = "<group>"; };
+		0E2733101DA8EA30006D4974 /* TalkfunLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunLoginViewController.m; sourceTree = "<group>"; };
+		0E2733141DA8EA30006D4974 /* TalkfunSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunSegue.h; sourceTree = "<group>"; };
+		0E2733151DA8EA30006D4974 /* TalkfunSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunSegue.m; sourceTree = "<group>"; };
+		0E2733181DA8EA30006D4974 /* TalkfunSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunSettingViewController.h; sourceTree = "<group>"; };
+		0E2733191DA8EA30006D4974 /* TalkfunSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunSettingViewController.m; sourceTree = "<group>"; };
+		0E27331B1DA8EA30006D4974 /* TalkfunSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunSettingView.h; sourceTree = "<group>"; };
+		0E27331C1DA8EA30006D4974 /* TalkfunSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunSettingView.m; sourceTree = "<group>"; };
+		0E3AFD491D813E5C00D797D1 /* setting_click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_click@2x.png"; sourceTree = "<group>"; };
+		0E3AFD4A1D813E5C00D797D1 /* setting_click@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_click@3x.png"; sourceTree = "<group>"; };
+		0E5864421D68B3750014D6F6 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		0E5864431D68B3750014D6F6 /* logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@3x.png"; sourceTree = "<group>"; };
+		0E8CCD7D1DAC83C200D26022 /* TalkfungetCurrentDateString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfungetCurrentDateString.h; sourceTree = "<group>"; };
+		0E8CCD7E1DAC83C200D26022 /* TalkfungetCurrentDateString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfungetCurrentDateString.m; sourceTree = "<group>"; };
+		0E8CCD7F1DAC83C200D26022 /* TalkfunSetContentOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunSetContentOffset.h; sourceTree = "<group>"; };
+		0E8CCD801DAC83C200D26022 /* TalkfunSetContentOffset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunSetContentOffset.m; sourceTree = "<group>"; };
+		0E9A24751D77C2230014E2B9 /* 聊天@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "聊天@2x.png"; sourceTree = "<group>"; };
+		0E9A24761D77C2230014E2B9 /* 聊天@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "聊天@3x.png"; sourceTree = "<group>"; };
+		0E9A24781D77C2230014E2B9 /* 助教@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "助教@2x.png"; sourceTree = "<group>"; };
+		0E9A24791D77C2230014E2B9 /* 助教@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "助教@3x.png"; sourceTree = "<group>"; };
+		0E9A247A1D77C2230014E2B9 /* 学生@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "学生@2x.png"; sourceTree = "<group>"; };
+		0E9A247B1D77C2230014E2B9 /* 学生@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "学生@3x.png"; sourceTree = "<group>"; };
+		0E9A247C1D77C2230014E2B9 /* 老师@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "老师@2x.png"; sourceTree = "<group>"; };
+		0E9A247D1D77C2230014E2B9 /* 老师@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "老师@3x.png"; sourceTree = "<group>"; };
+		0E9A247F1D77C2230014E2B9 /* aha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aha.png; sourceTree = "<group>"; };
+		0E9A24801D77C2230014E2B9 /* amaz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amaz.png; sourceTree = "<group>"; };
+		0E9A24811D77C2230014E2B9 /* bye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bye.png; sourceTree = "<group>"; };
+		0E9A24821D77C2230014E2B9 /* cool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cool.png; sourceTree = "<group>"; };
+		0E9A24831D77C2230014E2B9 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
+		0E9A24841D77C2230014E2B9 /* good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = good.png; sourceTree = "<group>"; };
+		0E9A24851D77C2230014E2B9 /* hard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hard.png; sourceTree = "<group>"; };
+		0E9A24861D77C2230014E2B9 /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
+		0E9A24871D77C2230014E2B9 /* pitiful.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pitiful.png; sourceTree = "<group>"; };
+		0E9A24881D77C2230014E2B9 /* why.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = why.png; sourceTree = "<group>"; };
+		0EB303631D7FF959002B6346 /* NetworkStatusObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkStatusObserver.h; sourceTree = "<group>"; };
+		0EB303641D7FF959002B6346 /* NetworkStatusObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkStatusObserver.m; sourceTree = "<group>"; };
+		0EB303651D7FF959002B6346 /* Reachability+bpStatusDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reachability+bpStatusDescription.h"; sourceTree = "<group>"; };
+		0EB303661D7FF959002B6346 /* Reachability+bpStatusDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Reachability+bpStatusDescription.m"; sourceTree = "<group>"; };
+		0EB303671D7FF959002B6346 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		0EB303681D7FF959002B6346 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		0EB73D4D1DB5D28E00D695CF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0EB73D4F1DB5D2A900D695CF /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		0EB73D511DB5D2B500D695CF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0EC3C8161DB4D0AF008DD550 /* TalkfunClearCacheCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunClearCacheCell.h; sourceTree = "<group>"; };
+		0EC3C8171DB4D0AF008DD550 /* TalkfunClearCacheCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunClearCacheCell.m; sourceTree = "<group>"; };
+		0EC3C8191DB4D1FA008DD550 /* TalkfunSettingBeautyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunSettingBeautyCell.h; sourceTree = "<group>"; };
+		0EC3C81A1DB4D1FA008DD550 /* TalkfunSettingBeautyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunSettingBeautyCell.m; sourceTree = "<group>"; };
+		0EC3C81B1DB4D1FA008DD550 /* TalkfunSettingBeautyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkfunSettingBeautyCell.xib; sourceTree = "<group>"; };
+		0EC8511B1D803A18009537D1 /* 助教标签@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "助教标签@2x.png"; sourceTree = "<group>"; };
+		0EC8511C1D803A18009537D1 /* 助教标签@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "助教标签@3x.png"; sourceTree = "<group>"; };
+		0EC8511D1D803A18009537D1 /* 老师标签@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "老师标签@2x.png"; sourceTree = "<group>"; };
+		0EC8511E1D803A18009537D1 /* 老师标签@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "老师标签@3x.png"; sourceTree = "<group>"; };
+		0ED211751D9B6864004E39EB /* Default-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h.png"; sourceTree = "<group>"; };
+		0ED211761D9B6864004E39EB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0EE1AB121D953D95009C183C /* 上课提示toast@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上课提示toast@2x.png"; sourceTree = "<group>"; };
+		0EE1AB131D953D95009C183C /* 上课提示toast@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上课提示toast@3x.png"; sourceTree = "<group>"; };
+		0EE1AB141D953D95009C183C /* 语音动效@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "语音动效@2x.png"; sourceTree = "<group>"; };
+		0EE1AB151D953D95009C183C /* 语音动效@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "语音动效@3x.png"; sourceTree = "<group>"; };
+		0EE1AB161D953D95009C183C /* 页面提示toast@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "页面提示toast@2x.png"; sourceTree = "<group>"; };
+		0EE1AB171D953D95009C183C /* 页面提示toast@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "页面提示toast@3x.png"; sourceTree = "<group>"; };
+		0EE39ED81D82B46E0060C067 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		0EE39ED91D82B46E0060C067 /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
+		0EE39EDA1D82B46E0060C067 /* pic@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pic@2x.jpg"; sourceTree = "<group>"; };
+		0EE39EDB1D82B46E0060C067 /* pic@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pic@3x.jpg"; sourceTree = "<group>"; };
+		0EE5FEBA1D73DFE000581523 /* 默认图片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "默认图片.png"; sourceTree = "<group>"; };
+		1E5D39C8F1C4F57F3BA7D5A8 /* Pods-CloudLiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudLiveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudLiveTests/Pods-CloudLiveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41393078E5FCA124F11C3AAD /* Pods-CloudLiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudLiveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudLiveUITests/Pods-CloudLiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E20805E1DC33AE0004607EB /* UIView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		6E20805F1DC33AE0004607EB /* UIView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
+		6E26FABB1DC8C61100479420 /* TalkfunCloudLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunCloudLive.h; sourceTree = "<group>"; };
+		6E26FABC1DC8C61100479420 /* TalkfunCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunCourse.h; sourceTree = "<group>"; };
+		6E26FABD1DC8C61100479420 /* TalkfunDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunDocument.h; sourceTree = "<group>"; };
+		6E26FABE1DC8C61100479420 /* TalkfunLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunLive.h; sourceTree = "<group>"; };
+		6E26FABF1DC8C61100479420 /* TalkfunPhotoAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunPhotoAssets.h; sourceTree = "<group>"; };
+		6E26FAC01DC8C61100479420 /* TalkfunSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunSetting.h; sourceTree = "<group>"; };
+		6E26FAC11DC8C61100479420 /* TalkfunUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunUtils.h; sourceTree = "<group>"; };
+		6E26FAC21DC8C61100479420 /* TalkfunWhiteboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunWhiteboard.h; sourceTree = "<group>"; };
+		6E26FAD11DC8DA8100479420 /* CloudLiveSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudLiveSDK.h; sourceTree = "<group>"; };
+		6E26FB211DC9804200479420 /* TalkfunWhiteboardSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunWhiteboardSlider.h; sourceTree = "<group>"; };
+		6E26FB221DC9804200479420 /* TalkfunWhiteboardSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunWhiteboardSlider.m; sourceTree = "<group>"; };
+		6E26FB301DC9804200479420 /* TalkfunWhiteboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunWhiteboardView.h; sourceTree = "<group>"; };
+		6E26FB311DC9804200479420 /* TalkfunWhiteboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunWhiteboardView.m; sourceTree = "<group>"; };
+		6E26FB321DC9804200479420 /* TalkfunWhiteboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkfunWhiteboardView.xib; sourceTree = "<group>"; };
+		6E26FB3E1DC9814F00479420 /* TalkfunButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunButton.h; sourceTree = "<group>"; };
+		6E26FB3F1DC9814F00479420 /* TalkfunButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunButton.m; sourceTree = "<group>"; };
+		6E26FB401DC9814F00479420 /* TalkfunCourseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunCourseTableViewCell.h; sourceTree = "<group>"; };
+		6E26FB411DC9814F00479420 /* TalkfunCourseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunCourseTableViewCell.m; sourceTree = "<group>"; };
+		6E26FB421DC9814F00479420 /* TalkfunImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunImageView.h; sourceTree = "<group>"; };
+		6E26FB431DC9814F00479420 /* TalkfunImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunImageView.m; sourceTree = "<group>"; };
+		6E26FB441DC9814F00479420 /* TalkfunLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunLabel.h; sourceTree = "<group>"; };
+		6E26FB451DC9814F00479420 /* TalkfunLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunLabel.m; sourceTree = "<group>"; };
+		6E26FB501DC9838800479420 /* RemoveHighlightedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoveHighlightedButton.h; sourceTree = "<group>"; };
+		6E26FB511DC9838800479420 /* RemoveHighlightedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoveHighlightedButton.m; sourceTree = "<group>"; };
+		6E26FB521DC9838800479420 /* TalkfunWhiteboardSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunWhiteboardSliderCell.h; sourceTree = "<group>"; };
+		6E26FB531DC9838800479420 /* TalkfunWhiteboardSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunWhiteboardSliderCell.m; sourceTree = "<group>"; };
+		6E26FB541DC9838800479420 /* TalkfunWhiteboardSliderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkfunWhiteboardSliderCell.xib; sourceTree = "<group>"; };
+		6E26FB551DC9838800479420 /* XMGTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTitleButton.h; sourceTree = "<group>"; };
+		6E26FB561DC9838800479420 /* XMGTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTitleButton.m; sourceTree = "<group>"; };
+		6E26FB5C1DC9838D00479420 /* PromptClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromptClass.h; sourceTree = "<group>"; };
+		6E26FB5D1DC9838D00479420 /* PromptClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromptClass.m; sourceTree = "<group>"; };
+		6E536BBF1DCC58B400A9E314 /* TalkfunScheduleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunScheduleButton.h; sourceTree = "<group>"; };
+		6E536BC01DCC58B400A9E314 /* TalkfunScheduleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunScheduleButton.m; sourceTree = "<group>"; };
+		6E57C8421DD0849600CCAFCF /* uploadImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = uploadImage.gif; sourceTree = "<group>"; };
+		6E57C8E81DD1CB4800CCAFCF /* UIView+TalkfunActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TalkfunActivityIndicator.h"; sourceTree = "<group>"; };
+		6E57C8E91DD1CB4800CCAFCF /* UIView+TalkfunActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TalkfunActivityIndicator.m"; sourceTree = "<group>"; };
+		6E57C8EC1DD1CEB700CCAFCF /* TalkfunUploadPrompt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunUploadPrompt.h; sourceTree = "<group>"; };
+		6E57C8ED1DD1CEB700CCAFCF /* TalkfunUploadPrompt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunUploadPrompt.m; sourceTree = "<group>"; };
+		6E57C97C1DD2F6D800CCAFCF /* libCloudLiveSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCloudLiveSDK.a; sourceTree = "<group>"; };
+		6E57C97E1DD2F6F600CCAFCF /* TalkfunCourseResourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunCourseResourse.h; sourceTree = "<group>"; };
+		6E89A4A71DC0BDCD006B8FEB /* TalkfunHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkfunHeaderView.xib; sourceTree = "<group>"; };
+		6E89A4BB1DC1AAF1006B8FEB /* TalkfunUploadVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunUploadVideoController.h; sourceTree = "<group>"; };
+		6E89A4BC1DC1AAF1006B8FEB /* TalkfunUploadVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunUploadVideoController.m; sourceTree = "<group>"; };
+		6EA254551DC05FA200560363 /* TalkfunUploadVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunUploadVideoCell.h; sourceTree = "<group>"; };
+		6EA254561DC05FA200560363 /* TalkfunUploadVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunUploadVideoCell.m; sourceTree = "<group>"; };
+		6EA254571DC05FA200560363 /* TalkfunUploadVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkfunUploadVideoCell.xib; sourceTree = "<group>"; };
+		6EA254691DC0AFF800560363 /* TalkfunHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunHeaderView.h; sourceTree = "<group>"; };
+		6EA2546A1DC0AFF800560363 /* TalkfunHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunHeaderView.m; sourceTree = "<group>"; };
+		6EB6D5E01D6E90A90098DF9D /* TalkfunPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunPrefixHeader.pch; sourceTree = "<group>"; };
+		6EB6D63D1D6E93B00098DF9D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6EB6D63F1D6E93B80098DF9D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6EB6D6411D6E93BE0098DF9D /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		6EB6D6431D6E93C50098DF9D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6EB6D6451D6E93CC0098DF9D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6EB6D6471D6E93D40098DF9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6EB6D6491D6E93DD0098DF9D /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		6EB6D64B1D6E93E50098DF9D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6EE17AB51DCAD3C600C9CD80 /* TalkfunUploadListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkfunUploadListCell.h; sourceTree = "<group>"; };
+		6EE17AB61DCAD3C600C9CD80 /* TalkfunUploadListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkfunUploadListCell.m; sourceTree = "<group>"; };
+		6EE17AB71DCAD3C600C9CD80 /* TalkfunUploadListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkfunUploadListCell.xib; sourceTree = "<group>"; };
+		6EE17ABB1DCB13E900C9CD80 /* upload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upload@2x.png"; sourceTree = "<group>"; };
+		6EE17ABC1DCB13E900C9CD80 /* upload@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upload@3x.png"; sourceTree = "<group>"; };
+		6EE17ABD1DCB13E900C9CD80 /* 播放@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放@2x.png"; sourceTree = "<group>"; };
+		6EE17ABE1DCB13E900C9CD80 /* 播放@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放@3x.png"; sourceTree = "<group>"; };
+		6EE22C8B1D88FFCE00031479 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		8AF7A77CF66019E0148ADDE5 /* Pods-CloudLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudLive/Pods-CloudLive.debug.xcconfig"; sourceTree = "<group>"; };
+		95D4A90DB826F520E33B006D /* Pods_CloudLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B80C4331D636CEE00CF82F4 /* CloudLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B80C4371D636CEE00CF82F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B80C4401D636CEE00CF82F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B80C4421D636CEE00CF82F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B80C4451D636CEE00CF82F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B80C4471D636CEE00CF82F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B80C44C1D636CEE00CF82F4 /* CloudLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B80C4501D636CEE00CF82F4 /* CloudLiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudLiveTests.m; sourceTree = "<group>"; };
+		9B80C4521D636CEE00CF82F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B80C4571D636CEE00CF82F4 /* CloudLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B80C45B1D636CEE00CF82F4 /* CloudLiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudLiveUITests.m; sourceTree = "<group>"; };
+		9B80C45D1D636CEE00CF82F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B80C4701D636DC200CF82F4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B80C4711D636DC200CF82F4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B80C48F1D64112D00CF82F4 /* SocketIOClientSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIOClientSwift.framework; path = "../../../../Users/lee/Library/Developer/Xcode/DerivedData/CloudLive-dooatccshzounocoxusvpycataor/Build/Products/Debug-iphonesimulator/SocketIOClientSwift.framework"; sourceTree = "<group>"; };
+		9B80C4E51D670B8900CF82F4 /* Whiteboard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Whiteboard.framework; path = "Pods/../build/Debug-iphoneos/Whiteboard.framework"; sourceTree = "<group>"; };
+		A5A5237091A530B6E1BF16FD /* Pods_CloudLiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudLiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2D2E188D80E2C7418271F5 /* Pods_CloudLiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudLiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD83AFF2A03A30B51B4530E /* Pods-CloudLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudLive/Pods-CloudLive.release.xcconfig"; sourceTree = "<group>"; };
+		E148B289CFB2E1BE9C9FB2F7 /* Pods-CloudLiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudLiveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudLiveTests/Pods-CloudLiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		F5D7C7518548C1D7969C3531 /* Pods_CloudLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7690489554E2AD106FA30F0 /* Pods-CloudLiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudLiveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudLiveUITests/Pods-CloudLiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B80C4301D636CED00CF82F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E26FB5F1DC9860F00479420 /* libz.tbd in Frameworks */,
+				0EB73D4E1DB5D28E00D695CF /* SystemConfiguration.framework in Frameworks */,
+				6EE22C8C1D88FFCE00031479 /* Accelerate.framework in Frameworks */,
+				6EB6D64A1D6E93DD0098DF9D /* libstdc++.tbd in Frameworks */,
+				6EB6D6481D6E93D40098DF9D /* CoreGraphics.framework in Frameworks */,
+				6EB6D6461D6E93CC0098DF9D /* OpenGLES.framework in Frameworks */,
+				6EB6D6441D6E93C50098DF9D /* AudioToolbox.framework in Frameworks */,
+				6EB6D6421D6E93BE0098DF9D /* VideoToolbox.framework in Frameworks */,
+				6E57C97D1DD2F6D800CCAFCF /* libCloudLiveSDK.a in Frameworks */,
+				6EB6D6401D6E93B80098DF9D /* AVFoundation.framework in Frameworks */,
+				6EB6D63E1D6E93B00098DF9D /* CoreMedia.framework in Frameworks */,
+				87D003004B219ABDCB836EA4 /* Pods_CloudLive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B80C4491D636CEE00CF82F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BF96CA4CA9662DCDA1DED7 /* Pods_CloudLiveTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B80C4541D636CEE00CF82F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29E24A5CA295FCDF89BCF96 /* Pods_CloudLiveUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E0A70AC1D6C40F300AD8C10 /* 直播列表页 */ = {
+			isa = PBXGroup;
+			children = (
+				0E0A70AD1D6C40F300AD8C10 /* setting@2x.png */,
+				0E0A70AE1D6C40F300AD8C10 /* setting@3x.png */,
+				0E3AFD491D813E5C00D797D1 /* setting_click@2x.png */,
+				0E3AFD4A1D813E5C00D797D1 /* setting_click@3x.png */,
+				0E0A70AF1D6C40F300AD8C10 /* 创建课程页 */,
+				0E0A70B41D6C40F300AD8C10 /* 设置页 */,
+				0E0A70B71D6C40F300AD8C10 /* Class@2x.png */,
+				0E0A70B81D6C40F300AD8C10 /* Class@3x.png */,
+			);
+			path = "直播列表页";
+			sourceTree = "<group>";
+		};
+		0E0A70AF1D6C40F300AD8C10 /* 创建课程页 */ = {
+			isa = PBXGroup;
+			children = (
+				0E0A70B01D6C40F300AD8C10 /* icon_date.png */,
+				0E0A70B11D6C40F300AD8C10 /* icon_date@3x.png */,
+				0E0A70B21D6C40F300AD8C10 /* icon_创建@2x.png */,
+				0E0A70B31D6C40F300AD8C10 /* icon_创建@3x.png */,
+			);
+			path = "创建课程页";
+			sourceTree = "<group>";
+		};
+		0E0A70B41D6C40F300AD8C10 /* 设置页 */ = {
+			isa = PBXGroup;
+			children = (
+				0E0A70C31D6C4F7F00AD8C10 /* btn_more@2x.png */,
+				0E0A70C41D6C4F7F00AD8C10 /* btn_more@3x.png */,
+				0E0A70B51D6C40F300AD8C10 /* backBtnImage@2x.png */,
+				0E0A70B61D6C40F300AD8C10 /* backBtnImage@3x.png */,
+			);
+			path = "设置页";
+			sourceTree = "<group>";
+		};
+		0E26D5141D856BA600C8F381 /* 图片选择 */ = {
+			isa = PBXGroup;
+			children = (
+				0E26D5151D856BA600C8F381 /* choice@3x.png */,
+				0E26D5161D856BA600C8F381 /* choice@2x.png */,
+				0E26D5171D856BA600C8F381 /* 未选择@2x.png */,
+				0E26D5181D856BA600C8F381 /* 未选择@3x.png */,
+			);
+			path = "图片选择";
+			sourceTree = "<group>";
+		};
+		0E2732AD1DA8EA30006D4974 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				0E27330B1DA8EA30006D4974 /* Login */,
+				0E2732DD1DA8EA30006D4974 /* Live */,
+				0E2732AF1DA8EA30006D4974 /* Course */,
+				0E2732C31DA8EA30006D4974 /* Document */,
+				0E2733161DA8EA30006D4974 /* Setting */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		0E2732AF1DA8EA30006D4974 /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				0E2732B01DA8EA30006D4974 /* Controller */,
+				0E2732B51DA8EA30006D4974 /* Model */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		0E2732B01DA8EA30006D4974 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E2732B11DA8EA30006D4974 /* TalkfunCourseViewController.h */,
+				0E2732B21DA8EA30006D4974 /* TalkfunCourseViewController.m */,
+				0E2732B31DA8EA30006D4974 /* TalkfunCreateCourseController.h */,
+				0E2732B41DA8EA30006D4974 /* TalkfunCreateCourseController.m */,
+				6E26FB3D1DC9814F00479420 /* View */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E2732B51DA8EA30006D4974 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E2732B61DA8EA30006D4974 /* TalkfunCourseModel.h */,
+				0E2732B71DA8EA30006D4974 /* TalkfunCourseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E2732C31DA8EA30006D4974 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				0E2732C41DA8EA30006D4974 /* Controller */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		0E2732C41DA8EA30006D4974 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E2732C51DA8EA30006D4974 /* Document */,
+				0E2732DA1DA8EA30006D4974 /* FileViewController.h */,
+				0E2732DB1DA8EA30006D4974 /* FileViewController.m */,
+				0E2732DC1DA8EA30006D4974 /* FileViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E2732C51DA8EA30006D4974 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				0E2732C61DA8EA30006D4974 /* Controller */,
+				0E2732CD1DA8EA30006D4974 /* Model */,
+				0E2732D21DA8EA30006D4974 /* View */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		0E2732C61DA8EA30006D4974 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E2732C71DA8EA30006D4974 /* TalkfunDocumentViewController.h */,
+				0E2732C81DA8EA30006D4974 /* TalkfunDocumentViewController.m */,
+				0E2732C91DA8EA30006D4974 /* TalkfunDocumentViewController.xib */,
+				0E2732CA1DA8EA30006D4974 /* TalkfunPhotoPickerViewController.h */,
+				0E2732CB1DA8EA30006D4974 /* TalkfunPhotoPickerViewController.m */,
+				0E2732CC1DA8EA30006D4974 /* TalkfunPhotoPickerViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E2732CD1DA8EA30006D4974 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E2732CE1DA8EA30006D4974 /* TalkfunCourseWareModel.h */,
+				0E2732CF1DA8EA30006D4974 /* TalkfunCourseWareModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E2732D21DA8EA30006D4974 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E2732D31DA8EA30006D4974 /* Core */,
+				0E2732D41DA8EA30006D4974 /* TalkfunCourseWareCell.h */,
+				0E2732D51DA8EA30006D4974 /* TalkfunCourseWareCell.m */,
+				0E2732D61DA8EA30006D4974 /* TalkfunCourseWareCell.xib */,
+				0E2732D71DA8EA30006D4974 /* TalkfunPhotoCell.h */,
+				0E2732D81DA8EA30006D4974 /* TalkfunPhotoCell.m */,
+				0E2732D91DA8EA30006D4974 /* TalkfunPhotoCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E2732D31DA8EA30006D4974 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0E2732DD1DA8EA30006D4974 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				6E57C8EB1DD1CDDB00CCAFCF /* Model */,
+				0E2732DE1DA8EA30006D4974 /* Controller */,
+				6E26FB1F1DC9804200479420 /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		0E2732DE1DA8EA30006D4974 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E2732DF1DA8EA30006D4974 /* TalkfunLiveViewController.h */,
+				0E2732E01DA8EA30006D4974 /* TalkfunLiveViewController.m */,
+				0E2732E11DA8EA30006D4974 /* Topic */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E2732E11DA8EA30006D4974 /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				0E2732E21DA8EA30006D4974 /* Controller */,
+				0E2732E91DA8EA30006D4974 /* Model */,
+				0E2732F01DA8EA30006D4974 /* View */,
+			);
+			path = Topic;
+			sourceTree = "<group>";
+		};
+		0E2732E21DA8EA30006D4974 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E2732E31DA8EA30006D4974 /* TalkfunChatViewController.h */,
+				0E2732E41DA8EA30006D4974 /* TalkfunChatViewController.m */,
+				0E2732E51DA8EA30006D4974 /* TalkfunChatViewController.xib */,
+				0E2732E61DA8EA30006D4974 /* TalkfunQuestionViewController.h */,
+				0E2732E71DA8EA30006D4974 /* TalkfunQuestionViewController.m */,
+				0E2732E81DA8EA30006D4974 /* TalkfunQuestionViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E2732E91DA8EA30006D4974 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E2732EA1DA8EA30006D4974 /* TalkfunChatModel.h */,
+				0E2732EB1DA8EA30006D4974 /* TalkfunChatModel.m */,
+				0E2732EE1DA8EA30006D4974 /* TalkfunQuestionModel.h */,
+				0E2732EF1DA8EA30006D4974 /* TalkfunQuestionModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E2732F01DA8EA30006D4974 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E2732F11DA8EA30006D4974 /* TalkfunChatIconCell.h */,
+				0E2732F21DA8EA30006D4974 /* TalkfunChatIconCell.m */,
+				0E2732F31DA8EA30006D4974 /* TalkfunChatIconCell.xib */,
+				0E2732F41DA8EA30006D4974 /* TalkfunChatNoIconCell.h */,
+				0E2732F51DA8EA30006D4974 /* TalkfunChatNoIconCell.m */,
+				0E2732F61DA8EA30006D4974 /* TalkfunChatNoIconCell.xib */,
+				0E2732F71DA8EA30006D4974 /* TalkfunQuestionCell.h */,
+				0E2732F81DA8EA30006D4974 /* TalkfunQuestionCell.m */,
+				0E2732F91DA8EA30006D4974 /* TalkfunQuestionCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E27330B1DA8EA30006D4974 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0E27330C1DA8EA30006D4974 /* Controller */,
+				0E2733111DA8EA30006D4974 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0E27330C1DA8EA30006D4974 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E27330D1DA8EA30006D4974 /* TalkfunLoginNavigationController.h */,
+				0E27330E1DA8EA30006D4974 /* TalkfunLoginNavigationController.m */,
+				0E27330F1DA8EA30006D4974 /* TalkfunLoginViewController.h */,
+				0E2733101DA8EA30006D4974 /* TalkfunLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E2733111DA8EA30006D4974 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E2733141DA8EA30006D4974 /* TalkfunSegue.h */,
+				0E2733151DA8EA30006D4974 /* TalkfunSegue.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E2733161DA8EA30006D4974 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				0E2733171DA8EA30006D4974 /* Controller */,
+				0E27331A1DA8EA30006D4974 /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		0E2733171DA8EA30006D4974 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E2733181DA8EA30006D4974 /* TalkfunSettingViewController.h */,
+				0E2733191DA8EA30006D4974 /* TalkfunSettingViewController.m */,
+				6E89A4BB1DC1AAF1006B8FEB /* TalkfunUploadVideoController.h */,
+				6E89A4BC1DC1AAF1006B8FEB /* TalkfunUploadVideoController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E27331A1DA8EA30006D4974 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0EC3C8161DB4D0AF008DD550 /* TalkfunClearCacheCell.h */,
+				0EC3C8171DB4D0AF008DD550 /* TalkfunClearCacheCell.m */,
+				0E27331B1DA8EA30006D4974 /* TalkfunSettingView.h */,
+				0E27331C1DA8EA30006D4974 /* TalkfunSettingView.m */,
+				0EC3C8191DB4D1FA008DD550 /* TalkfunSettingBeautyCell.h */,
+				0EC3C81A1DB4D1FA008DD550 /* TalkfunSettingBeautyCell.m */,
+				0EC3C81B1DB4D1FA008DD550 /* TalkfunSettingBeautyCell.xib */,
+				6EA254551DC05FA200560363 /* TalkfunUploadVideoCell.h */,
+				6EA254561DC05FA200560363 /* TalkfunUploadVideoCell.m */,
+				6EA254571DC05FA200560363 /* TalkfunUploadVideoCell.xib */,
+				6EA254691DC0AFF800560363 /* TalkfunHeaderView.h */,
+				6EA2546A1DC0AFF800560363 /* TalkfunHeaderView.m */,
+				6E89A4A71DC0BDCD006B8FEB /* TalkfunHeaderView.xib */,
+				6EE17AB51DCAD3C600C9CD80 /* TalkfunUploadListCell.h */,
+				6EE17AB61DCAD3C600C9CD80 /* TalkfunUploadListCell.m */,
+				6EE17AB71DCAD3C600C9CD80 /* TalkfunUploadListCell.xib */,
+				6E536BBF1DCC58B400A9E314 /* TalkfunScheduleButton.h */,
+				6E536BC01DCC58B400A9E314 /* TalkfunScheduleButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E5864361D684E0A0014D6F6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6EE17ABA1DCB13E900C9CD80 /* 上传 */,
+				0ED211751D9B6864004E39EB /* Default-568h.png */,
+				0ED211761D9B6864004E39EB /* Default-568h@2x.png */,
+				0EE1AB111D953D95009C183C /* 提示标签 */,
+				0E26D5141D856BA600C8F381 /* 图片选择 */,
+				0EC8511A1D803A18009537D1 /* 标签 */,
+				0E9A24741D77C2230014E2B9 /* 聊天 */,
+				0EE5FEB91D73DFE000581523 /* 课件 */,
+				0E0A70AC1D6C40F300AD8C10 /* 直播列表页 */,
+				0E5864411D68B3750014D6F6 /* 登录页 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0E5864411D68B3750014D6F6 /* 登录页 */ = {
+			isa = PBXGroup;
+			children = (
+				0EE39ED81D82B46E0060C067 /* icon@2x.png */,
+				0EE39ED91D82B46E0060C067 /* icon@3x.png */,
+				0EE39EDA1D82B46E0060C067 /* pic@2x.jpg */,
+				0EE39EDB1D82B46E0060C067 /* pic@3x.jpg */,
+				0E5864421D68B3750014D6F6 /* logo@2x.png */,
+				0E5864431D68B3750014D6F6 /* logo@3x.png */,
+			);
+			path = "登录页";
+			sourceTree = "<group>";
+		};
+		0E8CCD741DAC83C200D26022 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0E8CCD7C1DAC83C200D26022 /* LiveTools */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0E8CCD7C1DAC83C200D26022 /* LiveTools */ = {
+			isa = PBXGroup;
+			children = (
+				0E8CCD7D1DAC83C200D26022 /* TalkfungetCurrentDateString.h */,
+				0E8CCD7E1DAC83C200D26022 /* TalkfungetCurrentDateString.m */,
+				0E8CCD7F1DAC83C200D26022 /* TalkfunSetContentOffset.h */,
+				0E8CCD801DAC83C200D26022 /* TalkfunSetContentOffset.m */,
+			);
+			path = LiveTools;
+			sourceTree = "<group>";
+		};
+		0E965B231DC8711A00D8193B /* CloudLiveSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6E57C97C1DD2F6D800CCAFCF /* libCloudLiveSDK.a */,
+				6E57C97E1DD2F6F600CCAFCF /* TalkfunCourseResourse.h */,
+				6E26FAD11DC8DA8100479420 /* CloudLiveSDK.h */,
+				6E26FABB1DC8C61100479420 /* TalkfunCloudLive.h */,
+				6E26FABC1DC8C61100479420 /* TalkfunCourse.h */,
+				6E26FABD1DC8C61100479420 /* TalkfunDocument.h */,
+				6E26FABE1DC8C61100479420 /* TalkfunLive.h */,
+				6E26FABF1DC8C61100479420 /* TalkfunPhotoAssets.h */,
+				6E26FAC01DC8C61100479420 /* TalkfunSetting.h */,
+				6E26FAC11DC8C61100479420 /* TalkfunUtils.h */,
+				6E26FAC21DC8C61100479420 /* TalkfunWhiteboard.h */,
+			);
+			path = CloudLiveSDK;
+			sourceTree = "<group>";
+		};
+		0E9A24741D77C2230014E2B9 /* 聊天 */ = {
+			isa = PBXGroup;
+			children = (
+				0E9A24751D77C2230014E2B9 /* 聊天@2x.png */,
+				0E9A24761D77C2230014E2B9 /* 聊天@3x.png */,
+				0E9A24771D77C2230014E2B9 /* 聊天区默认头像 */,
+				0E9A247E1D77C2230014E2B9 /* 聊天表情 */,
+			);
+			path = "聊天";
+			sourceTree = "<group>";
+		};
+		0E9A24771D77C2230014E2B9 /* 聊天区默认头像 */ = {
+			isa = PBXGroup;
+			children = (
+				0E9A24781D77C2230014E2B9 /* 助教@2x.png */,
+				0E9A24791D77C2230014E2B9 /* 助教@3x.png */,
+				0E9A247A1D77C2230014E2B9 /* 学生@2x.png */,
+				0E9A247B1D77C2230014E2B9 /* 学生@3x.png */,
+				0E9A247C1D77C2230014E2B9 /* 老师@2x.png */,
+				0E9A247D1D77C2230014E2B9 /* 老师@3x.png */,
+			);
+			path = "聊天区默认头像";
+			sourceTree = "<group>";
+		};
+		0E9A247E1D77C2230014E2B9 /* 聊天表情 */ = {
+			isa = PBXGroup;
+			children = (
+				0E02D70B1D868BFA0039384A /* rose.png */,
+				0E9A247F1D77C2230014E2B9 /* aha.png */,
+				0E9A24801D77C2230014E2B9 /* amaz.png */,
+				0E9A24811D77C2230014E2B9 /* bye.png */,
+				0E9A24821D77C2230014E2B9 /* cool.png */,
+				0E9A24831D77C2230014E2B9 /* flower.png */,
+				0E9A24841D77C2230014E2B9 /* good.png */,
+				0E9A24851D77C2230014E2B9 /* hard.png */,
+				0E9A24861D77C2230014E2B9 /* love.png */,
+				0E9A24871D77C2230014E2B9 /* pitiful.png */,
+				0E9A24881D77C2230014E2B9 /* why.png */,
+			);
+			path = "聊天表情";
+			sourceTree = "<group>";
+		};
+		0EB303621D7FF959002B6346 /* NetworkStatusObserver */ = {
+			isa = PBXGroup;
+			children = (
+				0EB303631D7FF959002B6346 /* NetworkStatusObserver.h */,
+				0EB303641D7FF959002B6346 /* NetworkStatusObserver.m */,
+				0EB303651D7FF959002B6346 /* Reachability+bpStatusDescription.h */,
+				0EB303661D7FF959002B6346 /* Reachability+bpStatusDescription.m */,
+				0EB303671D7FF959002B6346 /* Reachability.h */,
+				0EB303681D7FF959002B6346 /* Reachability.m */,
+			);
+			path = NetworkStatusObserver;
+			sourceTree = "<group>";
+		};
+		0EC8511A1D803A18009537D1 /* 标签 */ = {
+			isa = PBXGroup;
+			children = (
+				0EC8511B1D803A18009537D1 /* 助教标签@2x.png */,
+				0EC8511C1D803A18009537D1 /* 助教标签@3x.png */,
+				0EC8511D1D803A18009537D1 /* 老师标签@2x.png */,
+				0EC8511E1D803A18009537D1 /* 老师标签@3x.png */,
+			);
+			path = "标签";
+			sourceTree = "<group>";
+		};
+		0EE1AB111D953D95009C183C /* 提示标签 */ = {
+			isa = PBXGroup;
+			children = (
+				0EE1AB121D953D95009C183C /* 上课提示toast@2x.png */,
+				0EE1AB131D953D95009C183C /* 上课提示toast@3x.png */,
+				0EE1AB141D953D95009C183C /* 语音动效@2x.png */,
+				0EE1AB151D953D95009C183C /* 语音动效@3x.png */,
+				0EE1AB161D953D95009C183C /* 页面提示toast@2x.png */,
+				0EE1AB171D953D95009C183C /* 页面提示toast@3x.png */,
+			);
+			path = "提示标签";
+			sourceTree = "<group>";
+		};
+		0EE5FEB91D73DFE000581523 /* 课件 */ = {
+			isa = PBXGroup;
+			children = (
+				0EE5FEBA1D73DFE000581523 /* 默认图片.png */,
+			);
+			path = "课件";
+			sourceTree = "<group>";
+		};
+		4DC0038AFC03B1BCF6F57BF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EB73D511DB5D2B500D695CF /* CoreTelephony.framework */,
+				0EB73D4F1DB5D2A900D695CF /* libsqlite3.0.tbd */,
+				0EB73D4D1DB5D28E00D695CF /* SystemConfiguration.framework */,
+				6EE22C8B1D88FFCE00031479 /* Accelerate.framework */,
+				6EB6D64B1D6E93E50098DF9D /* libz.tbd */,
+				6EB6D6491D6E93DD0098DF9D /* libstdc++.tbd */,
+				6EB6D6471D6E93D40098DF9D /* CoreGraphics.framework */,
+				6EB6D6451D6E93CC0098DF9D /* OpenGLES.framework */,
+				6EB6D6431D6E93C50098DF9D /* AudioToolbox.framework */,
+				6EB6D6411D6E93BE0098DF9D /* VideoToolbox.framework */,
+				6EB6D63F1D6E93B80098DF9D /* AVFoundation.framework */,
+				6EB6D63D1D6E93B00098DF9D /* CoreMedia.framework */,
+				9B80C4E51D670B8900CF82F4 /* Whiteboard.framework */,
+				95D4A90DB826F520E33B006D /* Pods_CloudLive.framework */,
+				A5A5237091A530B6E1BF16FD /* Pods_CloudLiveTests.framework */,
+				AB2D2E188D80E2C7418271F5 /* Pods_CloudLiveUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E20805D1DC33AE0004607EB /* UIView+XMGExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6E20805E1DC33AE0004607EB /* UIView+XMGExtension.h */,
+				6E20805F1DC33AE0004607EB /* UIView+XMGExtension.m */,
+			);
+			path = "UIView+XMGExtension";
+			sourceTree = "<group>";
+		};
+		6E26FB1F1DC9804200479420 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E26FB201DC9804200479420 /* PPT */,
+				6E26FB301DC9804200479420 /* TalkfunWhiteboardView.h */,
+				6E26FB311DC9804200479420 /* TalkfunWhiteboardView.m */,
+				6E26FB321DC9804200479420 /* TalkfunWhiteboardView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E26FB201DC9804200479420 /* PPT */ = {
+			isa = PBXGroup;
+			children = (
+				6E26FB5B1DC9838D00479420 /* Model */,
+				6E26FB4F1DC9838800479420 /* View */,
+				6E26FB211DC9804200479420 /* TalkfunWhiteboardSlider.h */,
+				6E26FB221DC9804200479420 /* TalkfunWhiteboardSlider.m */,
+			);
+			path = PPT;
+			sourceTree = "<group>";
+		};
+		6E26FB3D1DC9814F00479420 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E26FB3E1DC9814F00479420 /* TalkfunButton.h */,
+				6E26FB3F1DC9814F00479420 /* TalkfunButton.m */,
+				6E26FB401DC9814F00479420 /* TalkfunCourseTableViewCell.h */,
+				6E26FB411DC9814F00479420 /* TalkfunCourseTableViewCell.m */,
+				6E26FB421DC9814F00479420 /* TalkfunImageView.h */,
+				6E26FB431DC9814F00479420 /* TalkfunImageView.m */,
+				6E26FB441DC9814F00479420 /* TalkfunLabel.h */,
+				6E26FB451DC9814F00479420 /* TalkfunLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E26FB4F1DC9838800479420 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E26FB501DC9838800479420 /* RemoveHighlightedButton.h */,
+				6E26FB511DC9838800479420 /* RemoveHighlightedButton.m */,
+				6E26FB521DC9838800479420 /* TalkfunWhiteboardSliderCell.h */,
+				6E26FB531DC9838800479420 /* TalkfunWhiteboardSliderCell.m */,
+				6E26FB541DC9838800479420 /* TalkfunWhiteboardSliderCell.xib */,
+				6E26FB551DC9838800479420 /* XMGTitleButton.h */,
+				6E26FB561DC9838800479420 /* XMGTitleButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E26FB5B1DC9838D00479420 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E26FB5C1DC9838D00479420 /* PromptClass.h */,
+				6E26FB5D1DC9838D00479420 /* PromptClass.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E57C8E71DD1CB4800CCAFCF /* UIView+TalkfunActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				6E57C8E81DD1CB4800CCAFCF /* UIView+TalkfunActivityIndicator.h */,
+				6E57C8E91DD1CB4800CCAFCF /* UIView+TalkfunActivityIndicator.m */,
+			);
+			path = "UIView+TalkfunActivityIndicator";
+			sourceTree = "<group>";
+		};
+		6E57C8EB1DD1CDDB00CCAFCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E57C8EC1DD1CEB700CCAFCF /* TalkfunUploadPrompt.h */,
+				6E57C8ED1DD1CEB700CCAFCF /* TalkfunUploadPrompt.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6EE17ABA1DCB13E900C9CD80 /* 上传 */ = {
+			isa = PBXGroup;
+			children = (
+				6E57C8421DD0849600CCAFCF /* uploadImage.gif */,
+				6EE17ABB1DCB13E900C9CD80 /* upload@2x.png */,
+				6EE17ABC1DCB13E900C9CD80 /* upload@3x.png */,
+				6EE17ABD1DCB13E900C9CD80 /* 播放@2x.png */,
+				6EE17ABE1DCB13E900C9CD80 /* 播放@3x.png */,
+			);
+			path = "上传";
+			sourceTree = "<group>";
+		};
+		75FE1250BEE6ED34D2D23731 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B80C48F1D64112D00CF82F4 /* SocketIOClientSwift.framework */,
+				F5D7C7518548C1D7969C3531 /* Pods_CloudLive.framework */,
+				8AF7A77CF66019E0148ADDE5 /* Pods-CloudLive.debug.xcconfig */,
+				DDD83AFF2A03A30B51B4530E /* Pods-CloudLive.release.xcconfig */,
+				1E5D39C8F1C4F57F3BA7D5A8 /* Pods-CloudLiveTests.debug.xcconfig */,
+				E148B289CFB2E1BE9C9FB2F7 /* Pods-CloudLiveTests.release.xcconfig */,
+				F7690489554E2AD106FA30F0 /* Pods-CloudLiveUITests.debug.xcconfig */,
+				41393078E5FCA124F11C3AAD /* Pods-CloudLiveUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B80C42A1D636CED00CF82F4 = {
+			isa = PBXGroup;
+			children = (
+				9B80C4351D636CEE00CF82F4 /* CloudLive */,
+				9B80C44F1D636CEE00CF82F4 /* CloudLiveTests */,
+				9B80C45A1D636CEE00CF82F4 /* CloudLiveUITests */,
+				9B80C4341D636CEE00CF82F4 /* Products */,
+				4DC0038AFC03B1BCF6F57BF9 /* Frameworks */,
+				75FE1250BEE6ED34D2D23731 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9B80C4341D636CEE00CF82F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B80C4331D636CEE00CF82F4 /* CloudLive.app */,
+				9B80C44C1D636CEE00CF82F4 /* CloudLiveTests.xctest */,
+				9B80C4571D636CEE00CF82F4 /* CloudLiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B80C4351D636CEE00CF82F4 /* CloudLive */ = {
+			isa = PBXGroup;
+			children = (
+				9B80C46A1D636D7500CF82F4 /* General */,
+				0E8CCD741DAC83C200D26022 /* Helper */,
+				9B80C5071D6C354900CF82F4 /* Header */,
+				9B80C46C1D636D7500CF82F4 /* Library */,
+				0E2732AD1DA8EA30006D4974 /* Module */,
+				0E5864361D684E0A0014D6F6 /* Resource */,
+				9B80C43F1D636CEE00CF82F4 /* Main.storyboard */,
+				9B80C4421D636CEE00CF82F4 /* Assets.xcassets */,
+				9B80C4441D636CEE00CF82F4 /* LaunchScreen.storyboard */,
+				9B80C4471D636CEE00CF82F4 /* Info.plist */,
+				9B80C4361D636CEE00CF82F4 /* Supporting Files */,
+			);
+			path = CloudLive;
+			sourceTree = "<group>";
+		};
+		9B80C4361D636CEE00CF82F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B80C4371D636CEE00CF82F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B80C44F1D636CEE00CF82F4 /* CloudLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B80C4501D636CEE00CF82F4 /* CloudLiveTests.m */,
+				9B80C4521D636CEE00CF82F4 /* Info.plist */,
+			);
+			path = CloudLiveTests;
+			sourceTree = "<group>";
+		};
+		9B80C45A1D636CEE00CF82F4 /* CloudLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B80C45B1D636CEE00CF82F4 /* CloudLiveUITests.m */,
+				9B80C45D1D636CEE00CF82F4 /* Info.plist */,
+			);
+			path = CloudLiveUITests;
+			sourceTree = "<group>";
+		};
+		9B80C46A1D636D7500CF82F4 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				9B80C4701D636DC200CF82F4 /* AppDelegate.h */,
+				9B80C4711D636DC200CF82F4 /* AppDelegate.m */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		9B80C46C1D636D7500CF82F4 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6E57C8E71DD1CB4800CCAFCF /* UIView+TalkfunActivityIndicator */,
+				0E965B231DC8711A00D8193B /* CloudLiveSDK */,
+				0EB303621D7FF959002B6346 /* NetworkStatusObserver */,
+				6E20805D1DC33AE0004607EB /* UIView+XMGExtension */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		9B80C5071D6C354900CF82F4 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				6EB6D5E01D6E90A90098DF9D /* TalkfunPrefixHeader.pch */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B80C4321D636CED00CF82F4 /* CloudLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B80C4601D636CEE00CF82F4 /* Build configuration list for PBXNativeTarget "CloudLive" */;
+			buildPhases = (
+				413696FDC5C447BE917F597F /* [CP] Check Pods Manifest.lock */,
+				D86D04A18AA61630880B97F7 /* [CP] Check Pods Manifest.lock */,
+				12C04A19A0F5CEF76EAD127F /* [CP] Check Pods Manifest.lock */,
+				706C7BA24D861B7BA4E5740A /* [CP] Check Pods Manifest.lock */,
+				2E76F056116D3ACC00C1E885 /* [CP] Check Pods Manifest.lock */,
+				8FFF653B1E34BACFA8010EA9 /* [CP] Check Pods Manifest.lock */,
+				D4959A4A9EB24615E282F0A6 /* [CP] Check Pods Manifest.lock */,
+				88A0085A421F93329A96B625 /* [CP] Check Pods Manifest.lock */,
+				0AAA87400BD7CE10D86BA29B /* [CP] Check Pods Manifest.lock */,
+				0725435ACD7C737FC724C9F9 /* [CP] Check Pods Manifest.lock */,
+				016CA00D273286D9F43E83DA /* [CP] Check Pods Manifest.lock */,
+				8CC9E0FD5F29CEC963CF1E7D /* [CP] Check Pods Manifest.lock */,
+				11C474022C07A9B435503314 /* [CP] Check Pods Manifest.lock */,
+				991501E20F159A1219DB5BC6 /* [CP] Check Pods Manifest.lock */,
+				9B80C42F1D636CED00CF82F4 /* Sources */,
+				9B80C4301D636CED00CF82F4 /* Frameworks */,
+				9B80C4311D636CED00CF82F4 /* Resources */,
+				09BCBA10AD9FDBFF20036106 /* [CP] Check Pods Manifest.lock */,
+				E0296AD37966D19DE4D89DE1 /* [CP] Embed Pods Frameworks */,
+				29501B774AD589202D1CDE32 /* [CP] Copy Pods Resources */,
+				90831C3341032189DA6D1487 /* 📦 Embed Pods Frameworks */,
+				BEA722D81E7C37352EC0FB30 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudLive;
+			productName = CloudLive;
+			productReference = 9B80C4331D636CEE00CF82F4 /* CloudLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B80C44B1D636CEE00CF82F4 /* CloudLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B80C4631D636CEE00CF82F4 /* Build configuration list for PBXNativeTarget "CloudLiveTests" */;
+			buildPhases = (
+				0E755FDE539F3AD7C1E8E4BE /* [CP] Check Pods Manifest.lock */,
+				4844AAD0AD65EEC738A02146 /* [CP] Check Pods Manifest.lock */,
+				A34C3EE18ED8658D83D217B9 /* [CP] Check Pods Manifest.lock */,
+				7E7FFFD1B080C63407F5AEA8 /* [CP] Check Pods Manifest.lock */,
+				E3A867AFB96C1E7456CAC204 /* [CP] Check Pods Manifest.lock */,
+				82A59BB364F363C3D5CBF9D9 /* [CP] Check Pods Manifest.lock */,
+				F5221032F2B3A9EF7E1360AE /* [CP] Check Pods Manifest.lock */,
+				D1805DC3ECACA211FB28D96F /* [CP] Check Pods Manifest.lock */,
+				BF6A3844ACCEE892BA13AD56 /* [CP] Check Pods Manifest.lock */,
+				3258C96FFDD3EF418BC8BC49 /* [CP] Check Pods Manifest.lock */,
+				3CA766210AF855BF5F152C5A /* [CP] Check Pods Manifest.lock */,
+				D33D478811C323AB1B9182A9 /* [CP] Check Pods Manifest.lock */,
+				F54253163BE6EDA01B347A4F /* [CP] Check Pods Manifest.lock */,
+				D249AE44BB0330CF656DCE8B /* [CP] Check Pods Manifest.lock */,
+				9B80C4481D636CEE00CF82F4 /* Sources */,
+				9B80C4491D636CEE00CF82F4 /* Frameworks */,
+				9B80C44A1D636CEE00CF82F4 /* Resources */,
+				1F7C89FE8CCEFF0C9388F55E /* [CP] Copy Pods Resources */,
+				9758563BA1C346AC73C4F580 /* [CP] Check Pods Manifest.lock */,
+				47B1311D5F2649F497FCB53C /* [CP] Embed Pods Frameworks */,
+				256DCB2D8E04DE9E8A439367 /* [CP] Copy Pods Resources */,
+				0926EFC5D6CC92D31CF8FCE4 /* 📦 Embed Pods Frameworks */,
+				FCFC3407A377B0E67B80ED0B /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B80C44E1D636CEE00CF82F4 /* PBXTargetDependency */,
+			);
+			name = CloudLiveTests;
+			productName = CloudLiveTests;
+			productReference = 9B80C44C1D636CEE00CF82F4 /* CloudLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B80C4561D636CEE00CF82F4 /* CloudLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B80C4661D636CEE00CF82F4 /* Build configuration list for PBXNativeTarget "CloudLiveUITests" */;
+			buildPhases = (
+				0B42C35F501E6B8D208D4E17 /* [CP] Check Pods Manifest.lock */,
+				16F63CD4E1E4592AA430F59C /* [CP] Check Pods Manifest.lock */,
+				28DAA59944D3944D61643A14 /* [CP] Check Pods Manifest.lock */,
+				B15AC5D9197E0CE63E2BD365 /* [CP] Check Pods Manifest.lock */,
+				70EFC05BC5003C7C9A7B31CE /* [CP] Check Pods Manifest.lock */,
+				E5B7331B486FA148AC2AD5DF /* [CP] Check Pods Manifest.lock */,
+				DB9A59F9F2CCA193CEC86345 /* [CP] Check Pods Manifest.lock */,
+				0A8260119B287F97F137C666 /* [CP] Check Pods Manifest.lock */,
+				D742A21B7C1222970A8D6461 /* [CP] Check Pods Manifest.lock */,
+				EEDE928AD1DF7CB1F9467A03 /* [CP] Check Pods Manifest.lock */,
+				5D5D273210829A8BA104568D /* [CP] Check Pods Manifest.lock */,
+				311A8AC8AD861C68D97EE287 /* [CP] Check Pods Manifest.lock */,
+				AB09B3C9185D6E3C72C4C575 /* [CP] Check Pods Manifest.lock */,
+				566466DB45A4CF9CF83BEEDD /* [CP] Check Pods Manifest.lock */,
+				9B80C4531D636CEE00CF82F4 /* Sources */,
+				9B80C4541D636CEE00CF82F4 /* Frameworks */,
+				9B80C4551D636CEE00CF82F4 /* Resources */,
+				A6197DE8D074F885D99A1F21 /* [CP] Copy Pods Resources */,
+				018011D287C4AB287B62222A /* [CP] Embed Pods Frameworks */,
+				7A3E19C7B635371785C56EBC /* [CP] Copy Pods Resources */,
+				991F7BB114328C5239A0C134 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B80C4591D636CEE00CF82F4 /* PBXTargetDependency */,
+			);
+			name = CloudLiveUITests;
+			productName = CloudLiveUITests;
+			productReference = 9B80C4571D636CEE00CF82F4 /* CloudLiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B80C42B1D636CED00CF82F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Talkfun;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Talkfun;
+				TargetAttributes = {
+					9B80C4321D636CED00CF82F4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V6U495P36C;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					9B80C44B1D636CEE00CF82F4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9B80C4321D636CED00CF82F4;
+					};
+					9B80C4561D636CEE00CF82F4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9B80C4321D636CED00CF82F4;
+					};
+				};
+			};
+			buildConfigurationList = 9B80C42E1D636CED00CF82F4 /* Build configuration list for PBXProject "CloudLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B80C42A1D636CED00CF82F4;
+			productRefGroup = 9B80C4341D636CEE00CF82F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B80C4321D636CED00CF82F4 /* CloudLive */,
+				9B80C44B1D636CEE00CF82F4 /* CloudLiveTests */,
+				9B80C4561D636CEE00CF82F4 /* CloudLiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B80C4311D636CED00CF82F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9A24941D77C2230014E2B9 /* cool.png in Resources */,
+				6EE17AC11DCB13E900C9CD80 /* 播放@2x.png in Resources */,
+				0E27333C1DA8EA30006D4974 /* TalkfunChatNoIconCell.xib in Resources */,
+				0E26D51A1D856BA600C8F381 /* choice@2x.png in Resources */,
+				0E5864441D68B3750014D6F6 /* logo@2x.png in Resources */,
+				0EE39EDD1D82B46E0060C067 /* icon@3x.png in Resources */,
+				0E26D51C1D856BA600C8F381 /* 未选择@3x.png in Resources */,
+				0EC8511F1D803A18009537D1 /* 助教标签@2x.png in Resources */,
+				0E2733301DA8EA30006D4974 /* FileViewController.xib in Resources */,
+				9B80C4461D636CEE00CF82F4 /* LaunchScreen.storyboard in Resources */,
+				0E26D51B1D856BA600C8F381 /* 未选择@2x.png in Resources */,
+				0E2733331DA8EA30006D4974 /* TalkfunChatViewController.xib in Resources */,
+				0E9A24921D77C2230014E2B9 /* amaz.png in Resources */,
+				0EE1AB1D1D953D95009C183C /* 页面提示toast@3x.png in Resources */,
+				0E3AFD4B1D813E5C00D797D1 /* setting_click@2x.png in Resources */,
+				0E9A249A1D77C2230014E2B9 /* why.png in Resources */,
+				0E9A24951D77C2230014E2B9 /* flower.png in Resources */,
+				0EE1AB1A1D953D95009C183C /* 语音动效@2x.png in Resources */,
+				0E0A70C51D6C4F7F00AD8C10 /* btn_more@2x.png in Resources */,
+				0EE39EDE1D82B46E0060C067 /* pic@2x.jpg in Resources */,
+				0E0A70C21D6C40F300AD8C10 /* Class@3x.png in Resources */,
+				0ED211771D9B6864004E39EB /* Default-568h.png in Resources */,
+				0EE39EDF1D82B46E0060C067 /* pic@3x.jpg in Resources */,
+				0E0A70BF1D6C40F300AD8C10 /* backBtnImage@2x.png in Resources */,
+				6EE17AC21DCB13E900C9CD80 /* 播放@3x.png in Resources */,
+				0E9A24961D77C2230014E2B9 /* good.png in Resources */,
+				0EE5FEBB1D73DFE000581523 /* 默认图片.png in Resources */,
+				0E2733351DA8EA30006D4974 /* TalkfunQuestionViewController.xib in Resources */,
+				0E0A70BC1D6C40F300AD8C10 /* icon_date@3x.png in Resources */,
+				6E57C8431DD0849600CCAFCF /* uploadImage.gif in Resources */,
+				0E9A24981D77C2230014E2B9 /* love.png in Resources */,
+				0EE1AB181D953D95009C183C /* 上课提示toast@2x.png in Resources */,
+				0E0A70BA1D6C40F300AD8C10 /* setting@3x.png in Resources */,
+				0E9A24971D77C2230014E2B9 /* hard.png in Resources */,
+				0E0A70B91D6C40F300AD8C10 /* setting@2x.png in Resources */,
+				9B80C4431D636CEE00CF82F4 /* Assets.xcassets in Resources */,
+				0E27332C1DA8EA30006D4974 /* TalkfunCourseWareCell.xib in Resources */,
+				0EC3C81D1DB4D1FA008DD550 /* TalkfunSettingBeautyCell.xib in Resources */,
+				0EC851201D803A18009537D1 /* 助教标签@3x.png in Resources */,
+				0EE39EDC1D82B46E0060C067 /* icon@2x.png in Resources */,
+				0E9A248C1D77C2230014E2B9 /* 助教@3x.png in Resources */,
+				0E2733281DA8EA30006D4974 /* TalkfunPhotoPickerViewController.xib in Resources */,
+				6EE17AB91DCAD3C600C9CD80 /* TalkfunUploadListCell.xib in Resources */,
+				0E9A248A1D77C2230014E2B9 /* 聊天@3x.png in Resources */,
+				0E0A70BB1D6C40F300AD8C10 /* icon_date.png in Resources */,
+				0E0A70C11D6C40F300AD8C10 /* Class@2x.png in Resources */,
+				0E3AFD4C1D813E5C00D797D1 /* setting_click@3x.png in Resources */,
+				6E26FB3C1DC9804200479420 /* TalkfunWhiteboardView.xib in Resources */,
+				0E27333E1DA8EA30006D4974 /* TalkfunQuestionCell.xib in Resources */,
+				0E9A24991D77C2230014E2B9 /* pitiful.png in Resources */,
+				0EC851221D803A18009537D1 /* 老师标签@3x.png in Resources */,
+				0E5864451D68B3750014D6F6 /* logo@3x.png in Resources */,
+				0E9A248E1D77C2230014E2B9 /* 学生@3x.png in Resources */,
+				0ED211781D9B6864004E39EB /* Default-568h@2x.png in Resources */,
+				0EE1AB1B1D953D95009C183C /* 语音动效@3x.png in Resources */,
+				6E89A4A81DC0BDCD006B8FEB /* TalkfunHeaderView.xib in Resources */,
+				0E0A70BE1D6C40F300AD8C10 /* icon_创建@3x.png in Resources */,
+				6EE17ABF1DCB13E900C9CD80 /* upload@2x.png in Resources */,
+				0EC851211D803A18009537D1 /* 老师标签@2x.png in Resources */,
+				0E27333A1DA8EA30006D4974 /* TalkfunChatIconCell.xib in Resources */,
+				6EA254591DC05FA200560363 /* TalkfunUploadVideoCell.xib in Resources */,
+				0E9A248D1D77C2230014E2B9 /* 学生@2x.png in Resources */,
+				0E9A24901D77C2230014E2B9 /* 老师@3x.png in Resources */,
+				9B80C4411D636CEE00CF82F4 /* Main.storyboard in Resources */,
+				0E9A24911D77C2230014E2B9 /* aha.png in Resources */,
+				0EE1AB191D953D95009C183C /* 上课提示toast@3x.png in Resources */,
+				0E9A24931D77C2230014E2B9 /* bye.png in Resources */,
+				0E0A70BD1D6C40F300AD8C10 /* icon_创建@2x.png in Resources */,
+				6EE17AC01DCB13E900C9CD80 /* upload@3x.png in Resources */,
+				0E2733261DA8EA30006D4974 /* TalkfunDocumentViewController.xib in Resources */,
+				6E26FB591DC9838800479420 /* TalkfunWhiteboardSliderCell.xib in Resources */,
+				0E0A70C61D6C4F7F00AD8C10 /* btn_more@3x.png in Resources */,
+				0E02D70C1D868BFA0039384A /* rose.png in Resources */,
+				0E9A24891D77C2230014E2B9 /* 聊天@2x.png in Resources */,
+				0E27332E1DA8EA30006D4974 /* TalkfunPhotoCell.xib in Resources */,
+				0E9A248B1D77C2230014E2B9 /* 助教@2x.png in Resources */,
+				0E26D5191D856BA600C8F381 /* choice@3x.png in Resources */,
+				0E9A248F1D77C2230014E2B9 /* 老师@2x.png in Resources */,
+				0EE1AB1C1D953D95009C183C /* 页面提示toast@2x.png in Resources */,
+				0E0A70C01D6C40F300AD8C10 /* backBtnImage@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B80C44A1D636CEE00CF82F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B80C4551D636CEE00CF82F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		016CA00D273286D9F43E83DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		018011D287C4AB287B62222A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudLiveTests/Pods-CloudLiveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0725435ACD7C737FC724C9F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0926EFC5D6CC92D31CF8FCE4 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudLiveTests/Pods-CloudLiveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09BCBA10AD9FDBFF20036106 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0A8260119B287F97F137C666 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0AAA87400BD7CE10D86BA29B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0B42C35F501E6B8D208D4E17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0E755FDE539F3AD7C1E8E4BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		11C474022C07A9B435503314 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		12C04A19A0F5CEF76EAD127F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		16F63CD4E1E4592AA430F59C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1F7C89FE8CCEFF0C9388F55E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudLiveTests/Pods-CloudLiveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		256DCB2D8E04DE9E8A439367 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudLiveTests/Pods-CloudLiveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28DAA59944D3944D61643A14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29501B774AD589202D1CDE32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudLive/Pods-CloudLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E76F056116D3ACC00C1E885 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		311A8AC8AD861C68D97EE287 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3258C96FFDD3EF418BC8BC49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3CA766210AF855BF5F152C5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		413696FDC5C447BE917F597F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47B1311D5F2649F497FCB53C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudLiveTests/Pods-CloudLiveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4844AAD0AD65EEC738A02146 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		566466DB45A4CF9CF83BEEDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D5D273210829A8BA104568D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		706C7BA24D861B7BA4E5740A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70EFC05BC5003C7C9A7B31CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A3E19C7B635371785C56EBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudLiveUITests/Pods-CloudLiveUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E7FFFD1B080C63407F5AEA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82A59BB364F363C3D5CBF9D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88A0085A421F93329A96B625 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8CC9E0FD5F29CEC963CF1E7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FFF653B1E34BACFA8010EA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90831C3341032189DA6D1487 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudLive/Pods-CloudLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9758563BA1C346AC73C4F580 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		991501E20F159A1219DB5BC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		991F7BB114328C5239A0C134 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudLiveUITests/Pods-CloudLiveUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A34C3EE18ED8658D83D217B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6197DE8D074F885D99A1F21 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudLiveUITests/Pods-CloudLiveUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB09B3C9185D6E3C72C4C575 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B15AC5D9197E0CE63E2BD365 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEA722D81E7C37352EC0FB30 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudLive/Pods-CloudLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF6A3844ACCEE892BA13AD56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1805DC3ECACA211FB28D96F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D249AE44BB0330CF656DCE8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D33D478811C323AB1B9182A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D4959A4A9EB24615E282F0A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D742A21B7C1222970A8D6461 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D86D04A18AA61630880B97F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB9A59F9F2CCA193CEC86345 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0296AD37966D19DE4D89DE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudLive/Pods-CloudLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3A867AFB96C1E7456CAC204 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5B7331B486FA148AC2AD5DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEDE928AD1DF7CB1F9467A03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5221032F2B3A9EF7E1360AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F54253163BE6EDA01B347A4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCFC3407A377B0E67B80ED0B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudLiveTests/Pods-CloudLiveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B80C42F1D636CED00CF82F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E26FB571DC9838800479420 /* RemoveHighlightedButton.m in Sources */,
+				0E27331E1DA8EA30006D4974 /* TalkfunCreateCourseController.m in Sources */,
+				6E2080601DC33AE0004607EB /* UIView+XMGExtension.m in Sources */,
+				0E2733381DA8EA30006D4974 /* TalkfunQuestionModel.m in Sources */,
+				0E2733361DA8EA30006D4974 /* TalkfunChatModel.m in Sources */,
+				0EB3036B1D7FF959002B6346 /* Reachability.m in Sources */,
+				0E27331D1DA8EA30006D4974 /* TalkfunCourseViewController.m in Sources */,
+				0E27332B1DA8EA30006D4974 /* TalkfunCourseWareCell.m in Sources */,
+				6E26FB3B1DC9804200479420 /* TalkfunWhiteboardView.m in Sources */,
+				6EA2546B1DC0AFF800560363 /* TalkfunHeaderView.m in Sources */,
+				6E26FB4A1DC9814F00479420 /* TalkfunCourseTableViewCell.m in Sources */,
+				0E27331F1DA8EA30006D4974 /* TalkfunCourseModel.m in Sources */,
+				6E89A4BD1DC1AAF1006B8FEB /* TalkfunUploadVideoController.m in Sources */,
+				0E27333D1DA8EA30006D4974 /* TalkfunQuestionCell.m in Sources */,
+				0EB3036A1D7FF959002B6346 /* Reachability+bpStatusDescription.m in Sources */,
+				6EE17AB81DCAD3C600C9CD80 /* TalkfunUploadListCell.m in Sources */,
+				6E536BC11DCC58B400A9E314 /* TalkfunScheduleButton.m in Sources */,
+				6E26FB5A1DC9838800479420 /* XMGTitleButton.m in Sources */,
+				6E26FB5E1DC9838D00479420 /* PromptClass.m in Sources */,
+				0E2733271DA8EA30006D4974 /* TalkfunPhotoPickerViewController.m in Sources */,
+				0E2733391DA8EA30006D4974 /* TalkfunChatIconCell.m in Sources */,
+				0E8CCD8F1DAC83C200D26022 /* TalkfunSetContentOffset.m in Sources */,
+				9B80C4741D636DC300CF82F4 /* AppDelegate.m in Sources */,
+				0EC3C81C1DB4D1FA008DD550 /* TalkfunSettingBeautyCell.m in Sources */,
+				6E57C8EA1DD1CB4800CCAFCF /* UIView+TalkfunActivityIndicator.m in Sources */,
+				6E26FB491DC9814F00479420 /* TalkfunButton.m in Sources */,
+				6E57C8EE1DD1CEB700CCAFCF /* TalkfunUploadPrompt.m in Sources */,
+				0E2733341DA8EA30006D4974 /* TalkfunQuestionViewController.m in Sources */,
+				0E27332F1DA8EA30006D4974 /* FileViewController.m in Sources */,
+				0E8CCD8E1DAC83C200D26022 /* TalkfungetCurrentDateString.m in Sources */,
+				0E2733311DA8EA30006D4974 /* TalkfunLiveViewController.m in Sources */,
+				0EB303691D7FF959002B6346 /* NetworkStatusObserver.m in Sources */,
+				0E27333B1DA8EA30006D4974 /* TalkfunChatNoIconCell.m in Sources */,
+				6E26FB4C1DC9814F00479420 /* TalkfunLabel.m in Sources */,
+				0E2733471DA8EA30006D4974 /* TalkfunLoginNavigationController.m in Sources */,
+				0E2733321DA8EA30006D4974 /* TalkfunChatViewController.m in Sources */,
+				6EA254581DC05FA200560363 /* TalkfunUploadVideoCell.m in Sources */,
+				0E27332D1DA8EA30006D4974 /* TalkfunPhotoCell.m in Sources */,
+				6E26FB581DC9838800479420 /* TalkfunWhiteboardSliderCell.m in Sources */,
+				0E27334B1DA8EA30006D4974 /* TalkfunSettingViewController.m in Sources */,
+				6E26FB4B1DC9814F00479420 /* TalkfunImageView.m in Sources */,
+				0E27334A1DA8EA30006D4974 /* TalkfunSegue.m in Sources */,
+				0E2733251DA8EA30006D4974 /* TalkfunDocumentViewController.m in Sources */,
+				0E2733291DA8EA30006D4974 /* TalkfunCourseWareModel.m in Sources */,
+				6E26FB331DC9804200479420 /* TalkfunWhiteboardSlider.m in Sources */,
+				0E2733481DA8EA30006D4974 /* TalkfunLoginViewController.m in Sources */,
+				9B80C4381D636CEE00CF82F4 /* main.m in Sources */,
+				0EC3C8181DB4D0AF008DD550 /* TalkfunClearCacheCell.m in Sources */,
+				0E27334C1DA8EA30006D4974 /* TalkfunSettingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B80C4481D636CEE00CF82F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B80C4511D636CEE00CF82F4 /* CloudLiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B80C4531D636CEE00CF82F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B80C45C1D636CEE00CF82F4 /* CloudLiveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B80C44E1D636CEE00CF82F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B80C4321D636CED00CF82F4 /* CloudLive */;
+			targetProxy = 0E0A70FC1D6DDBB900AD8C10 /* PBXContainerItemProxy */;
+		};
+		9B80C4591D636CEE00CF82F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B80C4321D636CED00CF82F4 /* CloudLive */;
+			targetProxy = 9B80C4581D636CEE00CF82F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B80C43F1D636CEE00CF82F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B80C4401D636CEE00CF82F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B80C4441D636CEE00CF82F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B80C4451D636CEE00CF82F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B80C45E1D636CEE00CF82F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B80C45F1D636CEE00CF82F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B80C4611D636CEE00CF82F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AF7A77CF66019E0148ADDE5 /* Pods-CloudLive.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = V6U495P36C;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CloudLive/Header/TalkfunPrefixHeader.pch";
+				INFOPLIST_FILE = CloudLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CloudLive/Library/CloudLiveSDK",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"JFImagePicker\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SocketIO\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.talk-fun.CloudLiveApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B80C4621D636CEE00CF82F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD83AFF2A03A30B51B4530E /* Pods-CloudLive.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = V6U495P36C;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CloudLive/Header/TalkfunPrefixHeader.pch";
+				INFOPLIST_FILE = CloudLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CloudLive/Library/CloudLiveSDK",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"JFImagePicker\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SocketIO\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.talk-fun.CloudLiveApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B80C4641D636CEE00CF82F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E5D39C8F1C4F57F3BA7D5A8 /* Pods-CloudLiveTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CloudLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.talk-fun.CloudLiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudLive.app/CloudLive";
+			};
+			name = Debug;
+		};
+		9B80C4651D636CEE00CF82F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E148B289CFB2E1BE9C9FB2F7 /* Pods-CloudLiveTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CloudLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.talk-fun.CloudLiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudLive.app/CloudLive";
+			};
+			name = Release;
+		};
+		9B80C4671D636CEE00CF82F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7690489554E2AD106FA30F0 /* Pods-CloudLiveUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CloudLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.talk-fun.CloudLiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CloudLive;
+			};
+			name = Debug;
+		};
+		9B80C4681D636CEE00CF82F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41393078E5FCA124F11C3AAD /* Pods-CloudLiveUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CloudLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.talk-fun.CloudLiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CloudLive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B80C42E1D636CED00CF82F4 /* Build configuration list for PBXProject "CloudLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B80C45E1D636CEE00CF82F4 /* Debug */,
+				9B80C45F1D636CEE00CF82F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B80C4601D636CEE00CF82F4 /* Build configuration list for PBXNativeTarget "CloudLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B80C4611D636CEE00CF82F4 /* Debug */,
+				9B80C4621D636CEE00CF82F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B80C4631D636CEE00CF82F4 /* Build configuration list for PBXNativeTarget "CloudLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B80C4641D636CEE00CF82F4 /* Debug */,
+				9B80C4651D636CEE00CF82F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B80C4661D636CEE00CF82F4 /* Build configuration list for PBXNativeTarget "CloudLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B80C4671D636CEE00CF82F4 /* Debug */,
+				9B80C4681D636CEE00CF82F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B80C42B1D636CED00CF82F4 /* Project object */;
+}

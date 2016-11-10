@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pic.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="es4-Sj-ZiT"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="7MT-h8-8lH">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="XbZ-ld-eAi"/>
+                                    <constraint firstAttribute="height" constant="80" id="kxW-1T-Iou"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最稳定流畅的互动直播" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhy-FP-8a8">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="61a-pu-Sip"/>
+                                    <constraint firstAttribute="height" constant="21" id="Xl1-1Z-R6o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mhy-FP-8a8" firstAttribute="centerX" secondItem="7MT-h8-8lH" secondAttribute="centerX" id="9Db-fn-CSy"/>
+                            <constraint firstItem="Mhy-FP-8a8" firstAttribute="top" secondItem="7MT-h8-8lH" secondAttribute="bottom" constant="30" id="Oqb-Et-JSF"/>
+                            <constraint firstItem="7MT-h8-8lH" firstAttribute="centerX" secondItem="es4-Sj-ZiT" secondAttribute="centerX" id="WMf-Q6-rZs"/>
+                            <constraint firstItem="es4-Sj-ZiT" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Wtd-Dx-Vyr"/>
+                            <constraint firstItem="7MT-h8-8lH" firstAttribute="centerY" secondItem="es4-Sj-ZiT" secondAttribute="centerY" constant="-100" id="meg-is-Mze"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="es4-Sj-ZiT" secondAttribute="bottom" id="nMj-5W-YV9"/>
+                            <constraint firstAttribute="trailing" secondItem="es4-Sj-ZiT" secondAttribute="trailing" id="vS1-p8-ynH"/>
+                            <constraint firstItem="es4-Sj-ZiT" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="vbf-Pu-7Go"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon.png" width="85" height="85"/>
+        <image name="pic.jpg" width="375" height="667"/>
+    </resources>
+</document>

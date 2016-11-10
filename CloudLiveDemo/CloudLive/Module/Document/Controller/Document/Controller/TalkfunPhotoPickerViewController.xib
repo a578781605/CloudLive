@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TalkfunPhotoPickerViewController">
+            <connections>
+                <outlet property="albumBtn" destination="xYE-LB-fBu" id="PL0-NZ-p0f"/>
+                <outlet property="loadBtn" destination="Qzi-mk-bmY" id="wRl-pI-GAP"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="383" height="290"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hhd-pr-GPG">
+                    <subviews>
+                        <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qzi-mk-bmY">
+                            <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="5gw-UP-DTd"/>
+                                <constraint firstAttribute="width" constant="100" id="LEd-pF-StQ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="载入">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="loadBtn:" destination="-1" eventType="touchUpInside" id="Vzm-9e-R4v"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xYE-LB-fBu">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="lYv-Gx-x6i"/>
+                                <constraint firstAttribute="width" constant="60" id="rjg-91-9td"/>
+                            </constraints>
+                            <state key="normal" title="相册">
+                                <color key="titleColor" red="0.33725490200000002" green="0.67450980390000004" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="albumBtn:" destination="-1" eventType="touchUpInside" id="tND-SV-jfj"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zew-eZ-U9N">
+                            <color key="backgroundColor" red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="kRc-tO-8FH"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="zew-eZ-U9N" firstAttribute="leading" secondItem="Hhd-pr-GPG" secondAttribute="leading" id="1Zh-qY-kl0"/>
+                        <constraint firstAttribute="height" constant="44" id="3Tk-Up-Ycv"/>
+                        <constraint firstItem="xYE-LB-fBu" firstAttribute="centerY" secondItem="Hhd-pr-GPG" secondAttribute="centerY" id="6Pn-s4-oa7"/>
+                        <constraint firstItem="zew-eZ-U9N" firstAttribute="top" secondItem="Hhd-pr-GPG" secondAttribute="top" id="JRj-Ap-plQ"/>
+                        <constraint firstItem="Qzi-mk-bmY" firstAttribute="centerX" secondItem="Hhd-pr-GPG" secondAttribute="centerX" id="UdO-Fe-Cjh"/>
+                        <constraint firstItem="xYE-LB-fBu" firstAttribute="leading" secondItem="Hhd-pr-GPG" secondAttribute="leading" id="X5S-12-nbb"/>
+                        <constraint firstAttribute="trailing" secondItem="zew-eZ-U9N" secondAttribute="trailing" id="hy7-Uu-me2"/>
+                        <constraint firstItem="Qzi-mk-bmY" firstAttribute="centerY" secondItem="Hhd-pr-GPG" secondAttribute="centerY" id="tue-F3-ItS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Hhd-pr-GPG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="37b-fC-XsM"/>
+                <constraint firstAttribute="trailing" secondItem="Hhd-pr-GPG" secondAttribute="trailing" id="NKD-rK-EDo"/>
+                <constraint firstAttribute="bottom" secondItem="Hhd-pr-GPG" secondAttribute="bottom" id="fcs-gB-sva"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="228.5" y="203"/>
+        </view>
+    </objects>
+</document>

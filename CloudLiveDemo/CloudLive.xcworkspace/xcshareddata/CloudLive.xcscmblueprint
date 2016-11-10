@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B2D8D1BEBC947313E45B2DA358014D069E897289",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B2D8D1BEBC947313E45B2DA358014D069E897289" : 9223372036854775807,
+    "BB6B912BA546F1F8F1F372D2A5AA916DC1179791" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "216EB263-FBCC-448F-B648-7975CF756849",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B2D8D1BEBC947313E45B2DA358014D069E897289" : "CloudLive\/",
+    "BB6B912BA546F1F8F1F372D2A5AA916DC1179791" : "Whiteboard\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CloudLive",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "APP\/CloudLive.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.talk-fun.com:mobile-ios\/CloudLive.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B2D8D1BEBC947313E45B2DA358014D069E897289"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.talk-fun.com:mobile-ios\/Whiteboard.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BB6B912BA546F1F8F1F372D2A5AA916DC1179791"
+    }
+  ]
+}

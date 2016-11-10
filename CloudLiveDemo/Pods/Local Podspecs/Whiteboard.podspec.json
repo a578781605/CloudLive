@@ -1,0 +1,35 @@
+{
+  "name": "Whiteboard",
+  "version": "0.0.1",
+  "summary": "A short description of Whiteboard.",
+  "description": "欢拓画板",
+  "homepage": "http://www.talk-fun.com/",
+  "license": "MIT",
+  "authors": {
+    "luoliuyou": "luoliuyou@talk-fun.com"
+  },
+  "source": {
+    "path": "https://gitlab.talk-fun.com/mobile-ios/Whiteboard.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "Whiteboard/{Utils,Document,Whiteboard,PresentationDocument,DemonstrationWhiteboard}/**/*.{h,m,xib}",
+  "exclude_files": "Classes/Exclude",
+  "resources": "Whiteboard/Document/View/WhiteboardDocument.bundle",
+  "dependencies": {
+    "MJExtension": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ]
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}
